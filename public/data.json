@@ -1,0 +1,1557 @@
+{
+  "asama1_metrikler": [
+    {
+      "feature": "Population",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.9991,
+      "wf_cv_mape": 0.156,
+      "wf_cv_rmse": 214057.2224,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "GDP_Per_Capita",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.7443,
+      "wf_cv_mape": 11.6784,
+      "wf_cv_rmse": 1287.8783,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "GDP_Growth",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": -0.2467,
+      "wf_cv_mape": 71.1149,
+      "wf_cv_rmse": 3.9513,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "renewables_share_elec",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": 0.4822,
+      "wf_cv_mape": 17.5689,
+      "wf_cv_rmse": 6.0183,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "Urbanization_Rate",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.9887,
+      "wf_cv_mape": 0.9275,
+      "wf_cv_rmse": 1.1902,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "Industry_Value_Added_Pct_GDP",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": 0.4843,
+      "wf_cv_mape": 3.5712,
+      "wf_cv_rmse": 1.3178,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "Population_Density",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.9968,
+      "wf_cv_mape": 0.3211,
+      "wf_cv_rmse": 0.458,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "fossil_fuel_consumption",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.7539,
+      "wf_cv_mape": 3.8644,
+      "wf_cv_rmse": 67.6905,
+      "wf_cv_n": 12
+    },
+    {
+      "feature": "nuclear_consumption",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 1.0,
+      "wf_cv_mape": NaN,
+      "wf_cv_rmse": 0.0,
+      "wf_cv_n": 12
+    },
+    {
+      "feature": "coal_co2",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.6821,
+      "wf_cv_mape": 4.4096,
+      "wf_cv_rmse": 10.2201,
+      "wf_cv_n": 12
+    },
+    {
+      "feature": "gas_co2",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": -0.3534,
+      "wf_cv_mape": 8.5217,
+      "wf_cv_rmse": 10.6067,
+      "wf_cv_n": 12
+    },
+    {
+      "feature": "co2_per_capita",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.1195,
+      "wf_cv_mape": 4.0173,
+      "wf_cv_rmse": 0.2514,
+      "wf_cv_n": 12
+    },
+    {
+      "feature": "temperature_change_from_ghg",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.8383,
+      "wf_cv_mape": 3.059,
+      "wf_cv_rmse": 0.0004,
+      "wf_cv_n": 12
+    }
+  ],
+  "asama1_tahminler": [
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2021,
+      "Population": 86591729.88571,
+      "GDP_Per_Capita": 9574.082486,
+      "GDP_Growth": 5.691967,
+      "renewables_share_elec": 35.634178,
+      "Urbanization_Rate": 89.018605,
+      "Industry_Value_Added_Pct_GDP": 30.815979,
+      "Population_Density": 109.14675,
+      "fossil_fuel_consumption": 1563.602475,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 167.711614,
+      "gas_co2": 115.143791,
+      "co2_per_capita": 5.104241,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.010414
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2022,
+      "Population": 86901608.969123,
+      "GDP_Per_Capita": 10502.687216,
+      "GDP_Growth": 4.94852,
+      "renewables_share_elec": 41.823181,
+      "Urbanization_Rate": 89.038222,
+      "Industry_Value_Added_Pct_GDP": 30.904825,
+      "Population_Density": 109.782373,
+      "fossil_fuel_consumption": 1640.316468,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 176.222951,
+      "gas_co2": 100.66581,
+      "co2_per_capita": 5.29567,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.010718
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2023,
+      "Population": 87086680.440592,
+      "GDP_Per_Capita": 11339.668723,
+      "GDP_Growth": 4.822739,
+      "renewables_share_elec": 42.714314,
+      "Urbanization_Rate": 89.089867,
+      "Industry_Value_Added_Pct_GDP": 28.252705,
+      "Population_Density": 110.341173,
+      "fossil_fuel_consumption": 1688.950403,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 181.788394,
+      "gas_co2": 105.122574,
+      "co2_per_capita": 5.423488,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.010976
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2024,
+      "Population": 87227058.275323,
+      "GDP_Per_Capita": 12060.365555,
+      "GDP_Growth": 4.682126,
+      "renewables_share_elec": 42.398964,
+      "Urbanization_Rate": 89.256896,
+      "Industry_Value_Added_Pct_GDP": 28.056032,
+      "Population_Density": 110.912772,
+      "fossil_fuel_consumption": 1724.988561,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 185.801536,
+      "gas_co2": 104.747986,
+      "co2_per_capita": 5.521715,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.011228
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2025,
+      "Population": 87409120.753791,
+      "GDP_Per_Capita": 12683.512154,
+      "GDP_Growth": 4.682126,
+      "renewables_share_elec": 41.322632,
+      "Urbanization_Rate": 89.60114,
+      "Industry_Value_Added_Pct_GDP": 28.466969,
+      "Population_Density": 111.57294,
+      "fossil_fuel_consumption": 1762.247419,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 189.627096,
+      "gas_co2": 103.151726,
+      "co2_per_capita": 5.608873,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.011481
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2026,
+      "Population": 87716182.079139,
+      "GDP_Per_Capita": 13231.737186,
+      "GDP_Growth": 4.658157,
+      "renewables_share_elec": 44.810425,
+      "Urbanization_Rate": 90.161079,
+      "Industry_Value_Added_Pct_GDP": 28.842295,
+      "Population_Density": 112.37434,
+      "fossil_fuel_consumption": 1803.446546,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 193.676133,
+      "gas_co2": 105.122574,
+      "co2_per_capita": 5.692453,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.011735
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2027,
+      "Population": 88219337.843107,
+      "GDP_Per_Capita": 13723.864989,
+      "GDP_Growth": 4.658157,
+      "renewables_share_elec": 43.80341,
+      "Urbanization_Rate": 90.952167,
+      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Population_Density": 113.341896,
+      "fossil_fuel_consumption": 1846.267888,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 197.878033,
+      "gas_co2": 104.747986,
+      "co2_per_capita": 5.775022,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.011988
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2028,
+      "Population": 88969487.42899,
+      "GDP_Per_Capita": 14174.320073,
+      "GDP_Growth": 4.658157,
+      "renewables_share_elec": 39.916965,
+      "Urbanization_Rate": 91.968961,
+      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Population_Density": 114.472847,
+      "fossil_fuel_consumption": 1888.84621,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 202.112111,
+      "gas_co2": 103.151726,
+      "co2_per_capita": 5.857348,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.012242
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2029,
+      "Population": 89991425.165577,
+      "GDP_Per_Capita": 14593.895159,
+      "GDP_Growth": 4.658157,
+      "renewables_share_elec": 41.788414,
+      "Urbanization_Rate": 93.188626,
+      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Population_Density": 115.74085,
+      "fossil_fuel_consumption": 1930.874695,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 206.331191,
+      "gas_co2": 105.122574,
+      "co2_per_capita": 5.939631,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.012495
+    },
+    {
+      "country": "Turkey",
+      "iso_code": "TUR",
+      "year": 2030,
+      "Population": 91280681.425901,
+      "GDP_Per_Capita": 14990.606023,
+      "GDP_Growth": 4.658157,
+      "renewables_share_elec": 45.33794,
+      "Urbanization_Rate": 94.575324,
+      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Population_Density": 117.102994,
+      "fossil_fuel_consumption": 1972.696068,
+      "nuclear_consumption": 0.0,
+      "coal_co2": 210.535981,
+      "gas_co2": 104.747986,
+      "co2_per_capita": 6.021912,
+      "Electricity_Loss_Pct": NaN,
+      "temperature_change_from_ghg": 0.012748
+    }
+  ],
+  "asama2_metrikler": [
+    {
+      "model": "RF",
+      "rmse": 23.2869,
+      "mae": 21.9851,
+      "mape": 8.3308,
+      "r2": 0.785,
+      "rmsle": 0.0948,
+      "optuna_cv_rmse": 41.1488
+    },
+    {
+      "model": "XGBoost",
+      "rmse": 13.1365,
+      "mae": 11.1084,
+      "mape": 4.2603,
+      "r2": 0.9316,
+      "rmsle": 0.0528,
+      "optuna_cv_rmse": 32.068
+    },
+    {
+      "model": "LSTM",
+      "rmse": 9.6757,
+      "mae": 7.872,
+      "mape": 2.9349,
+      "r2": 0.9629,
+      "rmsle": 0.0357,
+      "optuna_cv_rmse": 12.7248
+    }
+  ],
+  "asama2_forecast": [
+    {
+      "year": 2026,
+      "RF_TWh": 341.6247104247099,
+      "XGBoost_TWh": 347.00555,
+      "LSTM_TWh": 358.86989720940596
+    },
+    {
+      "year": 2027,
+      "RF_TWh": 341.2881081081071,
+      "XGBoost_TWh": 347.00555,
+      "LSTM_TWh": 367.4674617111683
+    },
+    {
+      "year": 2028,
+      "RF_TWh": 337.4066795366788,
+      "XGBoost_TWh": 346.71582,
+      "LSTM_TWh": 376.1722768557072
+    },
+    {
+      "year": 2029,
+      "RF_TWh": 337.85617760617686,
+      "XGBoost_TWh": 347.0913,
+      "LSTM_TWh": 385.15903221845633
+    },
+    {
+      "year": 2030,
+      "RF_TWh": 341.4501930501926,
+      "XGBoost_TWh": 347.00555,
+      "LSTM_TWh": 393.43277444720275
+    }
+  ],
+  "asama2_cv_detay": [
+    {
+      "model": "RF",
+      "year": 2007,
+      "gercek_TWh": 189.96,
+      "tahmin_TWh": 165.32,
+      "hata_pct": 12.97
+    },
+    {
+      "model": "RF",
+      "year": 2008,
+      "gercek_TWh": 198.04,
+      "tahmin_TWh": 181.26,
+      "hata_pct": 8.47
+    },
+    {
+      "model": "RF",
+      "year": 2009,
+      "gercek_TWh": 194.08,
+      "tahmin_TWh": 188.64,
+      "hata_pct": 2.8
+    },
+    {
+      "model": "RF",
+      "year": 2010,
+      "gercek_TWh": 210.41,
+      "tahmin_TWh": 184.54,
+      "hata_pct": 12.29
+    },
+    {
+      "model": "RF",
+      "year": 2011,
+      "gercek_TWh": 230.3,
+      "tahmin_TWh": 193.74,
+      "hata_pct": 15.88
+    },
+    {
+      "model": "RF",
+      "year": 2012,
+      "gercek_TWh": 242.36,
+      "tahmin_TWh": 214.7,
+      "hata_pct": 11.41
+    },
+    {
+      "model": "RF",
+      "year": 2013,
+      "gercek_TWh": 246.35,
+      "tahmin_TWh": 226.67,
+      "hata_pct": 7.99
+    },
+    {
+      "model": "RF",
+      "year": 2014,
+      "gercek_TWh": 257.21,
+      "tahmin_TWh": 234.14,
+      "hata_pct": 8.97
+    },
+    {
+      "model": "RF",
+      "year": 2015,
+      "gercek_TWh": 265.71,
+      "tahmin_TWh": 246.1,
+      "hata_pct": 7.38
+    },
+    {
+      "model": "RF",
+      "year": 2016,
+      "gercek_TWh": 279.28,
+      "tahmin_TWh": 253.33,
+      "hata_pct": 9.29
+    },
+    {
+      "model": "RF",
+      "year": 2017,
+      "gercek_TWh": 296.71,
+      "tahmin_TWh": 261.1,
+      "hata_pct": 12.0
+    },
+    {
+      "model": "RF",
+      "year": 2018,
+      "gercek_TWh": 299.52,
+      "tahmin_TWh": 280.7,
+      "hata_pct": 6.28
+    },
+    {
+      "model": "RF",
+      "year": 2019,
+      "gercek_TWh": 299.6,
+      "tahmin_TWh": 274.41,
+      "hata_pct": 8.41
+    },
+    {
+      "model": "RF",
+      "year": 2020,
+      "gercek_TWh": 301.41,
+      "tahmin_TWh": 291.2,
+      "hata_pct": 3.39
+    },
+    {
+      "model": "RF",
+      "year": 2021,
+      "gercek_TWh": 326.03,
+      "tahmin_TWh": 296.68,
+      "hata_pct": 9.0
+    },
+    {
+      "model": "RF",
+      "year": 2022,
+      "gercek_TWh": 323.29,
+      "tahmin_TWh": 307.4,
+      "hata_pct": 4.92
+    },
+    {
+      "model": "RF",
+      "year": 2023,
+      "gercek_TWh": 323.81,
+      "tahmin_TWh": 311.11,
+      "hata_pct": 3.92
+    },
+    {
+      "model": "RF",
+      "year": 2024,
+      "gercek_TWh": 340.24,
+      "tahmin_TWh": 318.81,
+      "hata_pct": 6.3
+    },
+    {
+      "model": "RF",
+      "year": 2025,
+      "gercek_TWh": 351.93,
+      "tahmin_TWh": 328.66,
+      "hata_pct": 6.61
+    },
+    {
+      "model": "XGBoost",
+      "year": 2007,
+      "gercek_TWh": 189.96,
+      "tahmin_TWh": 174.10000610351562,
+      "hata_pct": 8.35
+    },
+    {
+      "model": "XGBoost",
+      "year": 2008,
+      "gercek_TWh": 198.04,
+      "tahmin_TWh": 189.3500061035156,
+      "hata_pct": 4.39
+    },
+    {
+      "model": "XGBoost",
+      "year": 2009,
+      "gercek_TWh": 194.08,
+      "tahmin_TWh": 197.5399932861328,
+      "hata_pct": 1.78
+    },
+    {
+      "model": "XGBoost",
+      "year": 2010,
+      "gercek_TWh": 210.41,
+      "tahmin_TWh": 196.2599945068359,
+      "hata_pct": 6.72
+    },
+    {
+      "model": "XGBoost",
+      "year": 2011,
+      "gercek_TWh": 230.3,
+      "tahmin_TWh": 204.47000122070312,
+      "hata_pct": 11.22
+    },
+    {
+      "model": "XGBoost",
+      "year": 2012,
+      "gercek_TWh": 242.36,
+      "tahmin_TWh": 229.52999877929688,
+      "hata_pct": 5.29
+    },
+    {
+      "model": "XGBoost",
+      "year": 2013,
+      "gercek_TWh": 246.35,
+      "tahmin_TWh": 241.67999267578125,
+      "hata_pct": 1.9
+    },
+    {
+      "model": "XGBoost",
+      "year": 2014,
+      "gercek_TWh": 257.21,
+      "tahmin_TWh": 245.7899932861328,
+      "hata_pct": 4.44
+    },
+    {
+      "model": "XGBoost",
+      "year": 2015,
+      "gercek_TWh": 265.71,
+      "tahmin_TWh": 256.3900146484375,
+      "hata_pct": 3.51
+    },
+    {
+      "model": "XGBoost",
+      "year": 2016,
+      "gercek_TWh": 279.28,
+      "tahmin_TWh": 265.0400085449219,
+      "hata_pct": 5.1
+    },
+    {
+      "model": "XGBoost",
+      "year": 2017,
+      "gercek_TWh": 296.71,
+      "tahmin_TWh": 278.70001220703125,
+      "hata_pct": 6.07
+    },
+    {
+      "model": "XGBoost",
+      "year": 2018,
+      "gercek_TWh": 299.52,
+      "tahmin_TWh": 292.8900146484375,
+      "hata_pct": 2.22
+    },
+    {
+      "model": "XGBoost",
+      "year": 2019,
+      "gercek_TWh": 299.6,
+      "tahmin_TWh": 292.7099914550781,
+      "hata_pct": 2.3
+    },
+    {
+      "model": "XGBoost",
+      "year": 2020,
+      "gercek_TWh": 301.41,
+      "tahmin_TWh": 298.9700012207031,
+      "hata_pct": 0.81
+    },
+    {
+      "model": "XGBoost",
+      "year": 2021,
+      "gercek_TWh": 326.03,
+      "tahmin_TWh": 301.79998779296875,
+      "hata_pct": 7.43
+    },
+    {
+      "model": "XGBoost",
+      "year": 2022,
+      "gercek_TWh": 323.29,
+      "tahmin_TWh": 325.3299865722656,
+      "hata_pct": 0.63
+    },
+    {
+      "model": "XGBoost",
+      "year": 2023,
+      "gercek_TWh": 323.81,
+      "tahmin_TWh": 323.3999938964844,
+      "hata_pct": 0.13
+    },
+    {
+      "model": "XGBoost",
+      "year": 2024,
+      "gercek_TWh": 340.24,
+      "tahmin_TWh": 323.7300109863281,
+      "hata_pct": 4.85
+    },
+    {
+      "model": "XGBoost",
+      "year": 2025,
+      "gercek_TWh": 351.93,
+      "tahmin_TWh": 338.5,
+      "hata_pct": 3.82
+    },
+    {
+      "model": "LSTM",
+      "year": 2007,
+      "gercek_TWh": 189.96,
+      "tahmin_TWh": 206.39,
+      "hata_pct": 8.65
+    },
+    {
+      "model": "LSTM",
+      "year": 2008,
+      "gercek_TWh": 198.04,
+      "tahmin_TWh": 190.56,
+      "hata_pct": 3.78
+    },
+    {
+      "model": "LSTM",
+      "year": 2009,
+      "gercek_TWh": 194.08,
+      "tahmin_TWh": 196.33,
+      "hata_pct": 1.16
+    },
+    {
+      "model": "LSTM",
+      "year": 2010,
+      "gercek_TWh": 210.41,
+      "tahmin_TWh": 203.11,
+      "hata_pct": 3.47
+    },
+    {
+      "model": "LSTM",
+      "year": 2011,
+      "gercek_TWh": 230.3,
+      "tahmin_TWh": 239.29,
+      "hata_pct": 3.9
+    },
+    {
+      "model": "LSTM",
+      "year": 2012,
+      "gercek_TWh": 242.36,
+      "tahmin_TWh": 239.61,
+      "hata_pct": 1.13
+    },
+    {
+      "model": "LSTM",
+      "year": 2013,
+      "gercek_TWh": 246.35,
+      "tahmin_TWh": 243.28,
+      "hata_pct": 1.25
+    },
+    {
+      "model": "LSTM",
+      "year": 2014,
+      "gercek_TWh": 257.21,
+      "tahmin_TWh": 259.26,
+      "hata_pct": 0.8
+    },
+    {
+      "model": "LSTM",
+      "year": 2015,
+      "gercek_TWh": 265.71,
+      "tahmin_TWh": 253.57,
+      "hata_pct": 4.57
+    },
+    {
+      "model": "LSTM",
+      "year": 2016,
+      "gercek_TWh": 279.28,
+      "tahmin_TWh": 273.3,
+      "hata_pct": 2.14
+    },
+    {
+      "model": "LSTM",
+      "year": 2017,
+      "gercek_TWh": 296.71,
+      "tahmin_TWh": 287.71,
+      "hata_pct": 3.03
+    },
+    {
+      "model": "LSTM",
+      "year": 2018,
+      "gercek_TWh": 299.52,
+      "tahmin_TWh": 303.96,
+      "hata_pct": 1.48
+    },
+    {
+      "model": "LSTM",
+      "year": 2019,
+      "gercek_TWh": 299.6,
+      "tahmin_TWh": 291.18,
+      "hata_pct": 2.81
+    },
+    {
+      "model": "LSTM",
+      "year": 2020,
+      "gercek_TWh": 301.41,
+      "tahmin_TWh": 298.14,
+      "hata_pct": 1.09
+    },
+    {
+      "model": "LSTM",
+      "year": 2021,
+      "gercek_TWh": 326.03,
+      "tahmin_TWh": 338.89,
+      "hata_pct": 3.94
+    },
+    {
+      "model": "LSTM",
+      "year": 2022,
+      "gercek_TWh": 323.29,
+      "tahmin_TWh": 316.05,
+      "hata_pct": 2.24
+    },
+    {
+      "model": "LSTM",
+      "year": 2023,
+      "gercek_TWh": 323.81,
+      "tahmin_TWh": 323.5,
+      "hata_pct": 0.1
+    },
+    {
+      "model": "LSTM",
+      "year": 2024,
+      "gercek_TWh": 340.24,
+      "tahmin_TWh": 351.88,
+      "hata_pct": 3.42
+    },
+    {
+      "model": "LSTM",
+      "year": 2025,
+      "gercek_TWh": 351.93,
+      "tahmin_TWh": 327.98,
+      "hata_pct": 6.81
+    }
+  ],
+  "asama3_metrikler": [
+    {
+      "model": "RF",
+      "rmse": 27.9581,
+      "mae": 22.8381,
+      "mape": 5.4306,
+      "r2": 0.4915,
+      "optuna_cv_rmse": 32.9105
+    },
+    {
+      "model": "XGBoost",
+      "rmse": 20.6799,
+      "mae": 17.3009,
+      "mape": 4.124,
+      "r2": 0.7218,
+      "optuna_cv_rmse": 27.3083
+    },
+    {
+      "model": "LSTM",
+      "rmse": 18.304,
+      "mae": 14.878,
+      "mape": 3.5111,
+      "r2": 0.7821,
+      "optuna_cv_rmse": 8.1715
+    }
+  ],
+  "asama3_forecast": [
+    {
+      "year": 2026,
+      "RF_MtCO2": 464.19,
+      "XGBoost_MtCO2": 482.61,
+      "LSTM_MtCO2": 487.87
+    },
+    {
+      "year": 2027,
+      "RF_MtCO2": 464.19,
+      "XGBoost_MtCO2": 482.61,
+      "LSTM_MtCO2": 494.57
+    },
+    {
+      "year": 2028,
+      "RF_MtCO2": 463.9,
+      "XGBoost_MtCO2": 483.4,
+      "LSTM_MtCO2": 500.98
+    },
+    {
+      "year": 2029,
+      "RF_MtCO2": 463.9,
+      "XGBoost_MtCO2": 483.4,
+      "LSTM_MtCO2": 510.69
+    },
+    {
+      "year": 2030,
+      "RF_MtCO2": 464.19,
+      "XGBoost_MtCO2": 482.61,
+      "LSTM_MtCO2": 521.45
+    }
+  ],
+  "asama3_cv_detay": [
+    {
+      "model": "RF",
+      "year": 2012,
+      "gercek_MtCO2": 358.64,
+      "tahmin_MtCO2": 332.26,
+      "hata_pct": 7.36
+    },
+    {
+      "model": "RF",
+      "year": 2013,
+      "gercek_MtCO2": 350.63,
+      "tahmin_MtCO2": 349.84,
+      "hata_pct": 0.23
+    },
+    {
+      "model": "RF",
+      "year": 2014,
+      "gercek_MtCO2": 367.27,
+      "tahmin_MtCO2": 350.98,
+      "hata_pct": 4.44
+    },
+    {
+      "model": "RF",
+      "year": 2015,
+      "gercek_MtCO2": 387.7,
+      "tahmin_MtCO2": 355.83,
+      "hata_pct": 8.22
+    },
+    {
+      "model": "RF",
+      "year": 2016,
+      "gercek_MtCO2": 405.55,
+      "tahmin_MtCO2": 371.77,
+      "hata_pct": 8.33
+    },
+    {
+      "model": "RF",
+      "year": 2017,
+      "gercek_MtCO2": 430.62,
+      "tahmin_MtCO2": 387.46,
+      "hata_pct": 10.02
+    },
+    {
+      "model": "RF",
+      "year": 2018,
+      "gercek_MtCO2": 423.82,
+      "tahmin_MtCO2": 413.33,
+      "hata_pct": 2.47
+    },
+    {
+      "model": "RF",
+      "year": 2019,
+      "gercek_MtCO2": 406.57,
+      "tahmin_MtCO2": 417.81,
+      "hata_pct": 2.76
+    },
+    {
+      "model": "RF",
+      "year": 2020,
+      "gercek_MtCO2": 416.33,
+      "tahmin_MtCO2": 411.5,
+      "hata_pct": 1.16
+    },
+    {
+      "model": "RF",
+      "year": 2021,
+      "gercek_MtCO2": 457.38,
+      "tahmin_MtCO2": 418.77,
+      "hata_pct": 8.44
+    },
+    {
+      "model": "RF",
+      "year": 2022,
+      "gercek_MtCO2": 443.6,
+      "tahmin_MtCO2": 438.16,
+      "hata_pct": 1.23
+    },
+    {
+      "model": "RF",
+      "year": 2023,
+      "gercek_MtCO2": 486.94,
+      "tahmin_MtCO2": 435.78,
+      "hata_pct": 10.51
+    },
+    {
+      "model": "XGBoost",
+      "year": 2012,
+      "gercek_MtCO2": 358.64,
+      "tahmin_MtCO2": 343.0400085449219,
+      "hata_pct": 4.35
+    },
+    {
+      "model": "XGBoost",
+      "year": 2013,
+      "gercek_MtCO2": 350.63,
+      "tahmin_MtCO2": 357.8699951171875,
+      "hata_pct": 2.06
+    },
+    {
+      "model": "XGBoost",
+      "year": 2014,
+      "gercek_MtCO2": 367.27,
+      "tahmin_MtCO2": 357.8500061035156,
+      "hata_pct": 2.57
+    },
+    {
+      "model": "XGBoost",
+      "year": 2015,
+      "gercek_MtCO2": 387.7,
+      "tahmin_MtCO2": 360.1300048828125,
+      "hata_pct": 7.11
+    },
+    {
+      "model": "XGBoost",
+      "year": 2016,
+      "gercek_MtCO2": 405.55,
+      "tahmin_MtCO2": 387.010009765625,
+      "hata_pct": 4.57
+    },
+    {
+      "model": "XGBoost",
+      "year": 2017,
+      "gercek_MtCO2": 430.62,
+      "tahmin_MtCO2": 404.7999877929687,
+      "hata_pct": 6.0
+    },
+    {
+      "model": "XGBoost",
+      "year": 2018,
+      "gercek_MtCO2": 423.82,
+      "tahmin_MtCO2": 429.25,
+      "hata_pct": 1.28
+    },
+    {
+      "model": "XGBoost",
+      "year": 2019,
+      "gercek_MtCO2": 406.57,
+      "tahmin_MtCO2": 424.0700073242187,
+      "hata_pct": 4.3
+    },
+    {
+      "model": "XGBoost",
+      "year": 2020,
+      "gercek_MtCO2": 416.33,
+      "tahmin_MtCO2": 406.8699951171875,
+      "hata_pct": 2.27
+    },
+    {
+      "model": "XGBoost",
+      "year": 2021,
+      "gercek_MtCO2": 457.38,
+      "tahmin_MtCO2": 430.7099914550781,
+      "hata_pct": 5.83
+    },
+    {
+      "model": "XGBoost",
+      "year": 2022,
+      "gercek_MtCO2": 443.6,
+      "tahmin_MtCO2": 445.0799865722656,
+      "hata_pct": 0.33
+    },
+    {
+      "model": "XGBoost",
+      "year": 2023,
+      "gercek_MtCO2": 486.94,
+      "tahmin_MtCO2": 444.0799865722656,
+      "hata_pct": 8.8
+    },
+    {
+      "model": "LSTM",
+      "year": 2012,
+      "gercek_MtCO2": 358.64,
+      "tahmin_MtCO2": 363.12,
+      "hata_pct": 1.25
+    },
+    {
+      "model": "LSTM",
+      "year": 2013,
+      "gercek_MtCO2": 350.63,
+      "tahmin_MtCO2": 357.79,
+      "hata_pct": 2.04
+    },
+    {
+      "model": "LSTM",
+      "year": 2014,
+      "gercek_MtCO2": 367.27,
+      "tahmin_MtCO2": 378.59,
+      "hata_pct": 3.08
+    },
+    {
+      "model": "LSTM",
+      "year": 2015,
+      "gercek_MtCO2": 387.7,
+      "tahmin_MtCO2": 376.92,
+      "hata_pct": 2.78
+    },
+    {
+      "model": "LSTM",
+      "year": 2016,
+      "gercek_MtCO2": 405.55,
+      "tahmin_MtCO2": 387.42,
+      "hata_pct": 4.47
+    },
+    {
+      "model": "LSTM",
+      "year": 2017,
+      "gercek_MtCO2": 430.62,
+      "tahmin_MtCO2": 422.25,
+      "hata_pct": 1.94
+    },
+    {
+      "model": "LSTM",
+      "year": 2018,
+      "gercek_MtCO2": 423.82,
+      "tahmin_MtCO2": 427.65,
+      "hata_pct": 0.9
+    },
+    {
+      "model": "LSTM",
+      "year": 2019,
+      "gercek_MtCO2": 406.57,
+      "tahmin_MtCO2": 431.57,
+      "hata_pct": 6.15
+    },
+    {
+      "model": "LSTM",
+      "year": 2020,
+      "gercek_MtCO2": 416.33,
+      "tahmin_MtCO2": 437.4,
+      "hata_pct": 5.06
+    },
+    {
+      "model": "LSTM",
+      "year": 2021,
+      "gercek_MtCO2": 457.38,
+      "tahmin_MtCO2": 431.93,
+      "hata_pct": 5.56
+    },
+    {
+      "model": "LSTM",
+      "year": 2022,
+      "gercek_MtCO2": 443.6,
+      "tahmin_MtCO2": 440.19,
+      "hata_pct": 0.77
+    },
+    {
+      "model": "LSTM",
+      "year": 2023,
+      "gercek_MtCO2": 486.94,
+      "tahmin_MtCO2": 447.41,
+      "hata_pct": 8.12
+    }
+  ],
+  "turkey_gecmis": [
+    {
+      "country": "Turkey",
+      "year": 1990,
+      "iso_code": "TUR",
+      "electricity_demand": 56.81,
+      "Population": 56015627.0,
+      "renewables_share_elec": 40.372,
+      "Population_Density": 72.7825422605668,
+      "GDP_Growth": 9.26614667149315,
+      "GDP_Per_Capita": 2689.52621921233,
+      "Industry_Value_Added_Pct_GDP": 31.0610690169089,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1991,
+      "iso_code": "TUR",
+      "electricity_demand": 60.49,
+      "Population": 57009892.0,
+      "renewables_share_elec": 37.849,
+      "Population_Density": 74.0744084819978,
+      "GDP_Growth": 0.720279035610119,
+      "GDP_Per_Capita": 2649.27259974439,
+      "Industry_Value_Added_Pct_GDP": 31.5408458335271,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1992,
+      "iso_code": "TUR",
+      "electricity_demand": 67.22,
+      "Population": 57990121.0,
+      "renewables_share_elec": 39.629,
+      "Population_Density": 75.3480477632109,
+      "GDP_Growth": 5.03563493896803,
+      "GDP_Per_Capita": 2743.65320297936,
+      "Industry_Value_Added_Pct_GDP": 31.1790632248246,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1993,
+      "iso_code": "TUR",
+      "electricity_demand": 73.43,
+      "Population": 58999164.0,
+      "renewables_share_elec": 46.186,
+      "Population_Density": 76.6591310110053,
+      "GDP_Growth": 7.65126520301509,
+      "GDP_Per_Capita": 3057.93737480422,
+      "Industry_Value_Added_Pct_GDP": 29.8229835895656,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1994,
+      "iso_code": "TUR",
+      "electricity_demand": 77.79,
+      "Population": 60033832.0,
+      "renewables_share_elec": 39.219,
+      "Population_Density": 78.0035029819524,
+      "GDP_Growth": -4.66814736394839,
+      "GDP_Per_Capita": 2176.2801813809,
+      "Industry_Value_Added_Pct_GDP": 32.0810894530806,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1995,
+      "iso_code": "TUR",
+      "electricity_demand": 85.54,
+      "Population": 61024501.0,
+      "renewables_share_elec": 41.57,
+      "Population_Density": 79.2907020256487,
+      "GDP_Growth": 7.87826687618991,
+      "GDP_Per_Capita": 3845.98997887841,
+      "Industry_Value_Added_Pct_GDP": 34.0777811908923,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1996,
+      "iso_code": "TUR",
+      "electricity_demand": 94.78,
+      "Population": 61951134.0,
+      "renewables_share_elec": 42.941,
+      "Population_Density": 80.4946974520224,
+      "GDP_Growth": 7.15779847930847,
+      "GDP_Per_Capita": 4041.36210281686,
+      "Industry_Value_Added_Pct_GDP": 33.2559430925955,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1997,
+      "iso_code": "TUR",
+      "electricity_demand": 105.52,
+      "Population": 62852968.0,
+      "renewables_share_elec": 38.906,
+      "Population_Density": 81.6664709016021,
+      "GDP_Growth": 7.3578623747848,
+      "GDP_Per_Capita": 4197.37636165642,
+      "Industry_Value_Added_Pct_GDP": 33.2224731022753,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1998,
+      "iso_code": "TUR",
+      "electricity_demand": 114.02,
+      "Population": 63734385.0,
+      "renewables_share_elec": 38.335,
+      "Population_Density": 82.8117186180372,
+      "GDP_Growth": 1.90857064345151,
+      "GDP_Per_Capita": 4331.02761275037,
+      "Industry_Value_Added_Pct_GDP": 31.0177716471483,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 1999,
+      "iso_code": "TUR",
+      "electricity_demand": 118.48,
+      "Population": 64591916.0,
+      "renewables_share_elec": 29.981,
+      "Population_Density": 83.9259423359277,
+      "GDP_Growth": -3.05277055759434,
+      "GDP_Per_Capita": 3973.77763854116,
+      "Industry_Value_Added_Pct_GDP": 28.2828588017996,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 2000,
+      "iso_code": "TUR",
+      "electricity_demand": 127.73,
+      "Population": 65425957.0,
+      "renewables_share_elec": 25.052,
+      "Population_Density": 85.0096293023921,
+      "GDP_Growth": 6.98528697817062,
+      "GDP_Per_Capita": 4199.3798635759,
+      "Industry_Value_Added_Pct_GDP": 26.8038683547198,
+      "Urbanization_Rate": 58.9706120006403
+    },
+    {
+      "country": "Turkey",
+      "year": 2001,
+      "iso_code": "TUR",
+      "electricity_demand": 126.39,
+      "Population": 66245125.0,
+      "renewables_share_elec": 19.912,
+      "Population_Density": 86.0739939971155,
+      "GDP_Growth": -4.973990713417342,
+      "GDP_Per_Capita": 3052.2256706793,
+      "Industry_Value_Added_Pct_GDP": 25.5218513969355,
+      "Urbanization_Rate": 59.8722461417316
+    },
+    {
+      "country": "Turkey",
+      "year": 2002,
+      "iso_code": "TUR",
+      "electricity_demand": 131.61,
+      "Population": 67048792.0,
+      "renewables_share_elec": 26.436,
+      "Population_Density": 87.1182191442641,
+      "GDP_Growth": 6.43550883793114,
+      "GDP_Per_Capita": 3591.08628982587,
+      "Industry_Value_Added_Pct_GDP": 24.6318670867085,
+      "Urbanization_Rate": 60.7385342729423
+    },
+    {
+      "country": "Turkey",
+      "year": 2003,
+      "iso_code": "TUR",
+      "electricity_demand": 140.11,
+      "Population": 67831735.0,
+      "renewables_share_elec": 25.484,
+      "Population_Density": 88.1355066720372,
+      "GDP_Growth": 5.79909321038525,
+      "GDP_Per_Capita": 4649.63668068586,
+      "Industry_Value_Added_Pct_GDP": 24.8432929751477,
+      "Urbanization_Rate": 61.5845060653258
+    },
+    {
+      "country": "Turkey",
+      "year": 2004,
+      "iso_code": "TUR",
+      "electricity_demand": 149.07,
+      "Population": 68592621.0,
+      "renewables_share_elec": 30.925,
+      "Population_Density": 89.1241466678794,
+      "GDP_Growth": 9.92540551918624,
+      "GDP_Per_Capita": 5979.6054216148,
+      "Industry_Value_Added_Pct_GDP": 25.1592284848331,
+      "Urbanization_Rate": 62.4388481173262
+    },
+    {
+      "country": "Turkey",
+      "year": 2005,
+      "iso_code": "TUR",
+      "electricity_demand": 160.47,
+      "Population": 69329557.0,
+      "renewables_share_elec": 24.587,
+      "Population_Density": 90.0816717123813,
+      "GDP_Growth": 9.11157745861635,
+      "GDP_Per_Capita": 7331.85429430255,
+      "Industry_Value_Added_Pct_GDP": 25.2941440738888,
+      "Urbanization_Rate": 63.3302470273874
+    },
+    {
+      "country": "Turkey",
+      "year": 2006,
+      "iso_code": "TUR",
+      "electricity_demand": 174.59,
+      "Population": 70045351.0,
+      "renewables_share_elec": 25.26,
+      "Population_Density": 91.0117186180372,
+      "GDP_Growth": 7.06762607623939,
+      "GDP_Per_Capita": 7990.08251407245,
+      "Industry_Value_Added_Pct_GDP": 26.0949736856779,
+      "Urbanization_Rate": 64.2873893939536
+    },
+    {
+      "country": "Turkey",
+      "year": 2007,
+      "iso_code": "TUR",
+      "electricity_demand": 189.96,
+      "Population": 70750593.0,
+      "renewables_share_elec": 19.037,
+      "Population_Density": 91.1582344763068,
+      "GDP_Growth": 5.10818513903604,
+      "GDP_Per_Capita": 9766.91734545294,
+      "Industry_Value_Added_Pct_GDP": 26.4310925169888,
+      "Urbanization_Rate": 65.3389618154687
+    },
+    {
+      "country": "Turkey",
+      "year": 2008,
+      "iso_code": "TUR",
+      "electricity_demand": 198.04,
+      "Population": 71562343.0,
+      "renewables_share_elec": 17.351,
+      "Population_Density": 92.3192677000637,
+      "GDP_Growth": 0.920118221365883,
+      "GDP_Per_Capita": 10913.4079047769,
+      "Industry_Value_Added_Pct_GDP": 26.2111946844741,
+      "Urbanization_Rate": 66.513650890377
+    },
+    {
+      "country": "Turkey",
+      "year": 2009,
+      "iso_code": "TUR",
+      "electricity_demand": 194.08,
+      "Population": 72464846.0,
+      "renewables_share_elec": 19.583,
+      "Population_Density": 93.6023881605447,
+      "GDP_Growth": -4.88269401706633,
+      "GDP_Per_Capita": 9076.92472236977,
+      "Industry_Value_Added_Pct_GDP": 24.0534082630626,
+      "Urbanization_Rate": 67.8401432171223
+    },
+    {
+      "country": "Turkey",
+      "year": 2010,
+      "iso_code": "TUR",
+      "electricity_demand": 210.41,
+      "Population": 73346766.0,
+      "renewables_share_elec": 26.385,
+      "Population_Density": 95.0354715902447,
+      "GDP_Growth": 8.54219848467686,
+      "GDP_Per_Capita": 10698.9699409757,
+      "Industry_Value_Added_Pct_GDP": 24.5086143505767,
+      "Urbanization_Rate": 69.3471253941487
+    },
+    {
+      "country": "Turkey",
+      "year": 2011,
+      "iso_code": "TUR",
+      "electricity_demand": 230.3,
+      "Population": 74215203.0,
+      "renewables_share_elec": 25.324,
+      "Population_Density": 96.4406649948677,
+      "GDP_Growth": 10.9799625273598,
+      "GDP_Per_Capita": 11373.6355760885,
+      "Industry_Value_Added_Pct_GDP": 26.8475365830986,
+      "Urbanization_Rate": 71.0028723528334
+    },
+    {
+      "country": "Turkey",
+      "year": 2012,
+      "iso_code": "TUR",
+      "electricity_demand": 242.36,
+      "Population": 75197196.0,
+      "renewables_share_elec": 27.229,
+      "Population_Density": 97.6778802801346,
+      "GDP_Growth": 4.80762696633448,
+      "GDP_Per_Capita": 11776.7593362033,
+      "Industry_Value_Added_Pct_GDP": 26.6835564000517,
+      "Urbanization_Rate": 73.7788680234324
+    },
+    {
+      "country": "Turkey",
+      "year": 2013,
+      "iso_code": "TUR",
+      "electricity_demand": 246.35,
+      "Population": 76403032.0,
+      "renewables_share_elec": 28.824,
+      "Population_Density": 98.9405610488157,
+      "GDP_Growth": 8.48825689298511,
+      "GDP_Per_Capita": 12635.5570016068,
+      "Industry_Value_Added_Pct_GDP": 27.7513691316392,
+      "Urbanization_Rate": 78.5218368384696
+    },
+    {
+      "country": "Turkey",
+      "year": 2014,
+      "iso_code": "TUR",
+      "electricity_demand": 257.21,
+      "Population": 78036154.0,
+      "renewables_share_elec": 20.885,
+      "Population_Density": 100.284401595572,
+      "GDP_Growth": 4.60079447270559,
+      "GDP_Per_Capita": 12209.3862327674,
+      "Industry_Value_Added_Pct_GDP": 28.1981753928692,
+      "Urbanization_Rate": 83.6024850744433
+    },
+    {
+      "country": "Turkey",
+      "year": 2015,
+      "iso_code": "TUR",
+      "electricity_demand": 265.71,
+      "Population": 80014222.0,
+      "renewables_share_elec": 31.956,
+      "Population_Density": 101.631276067721,
+      "GDP_Growth": 5.80557386628684,
+      "GDP_Per_Capita": 11064.6494504662,
+      "Industry_Value_Added_Pct_GDP": 27.9632974104138,
+      "Urbanization_Rate": 87.2167107972537
+    },
+    {
+      "country": "Turkey",
+      "year": 2016,
+      "iso_code": "TUR",
+      "electricity_demand": 279.28,
+      "Population": 81652087.0,
+      "renewables_share_elec": 32.886,
+      "Population_Density": 103.007889505347,
+      "GDP_Growth": 3.32366508200445,
+      "GDP_Per_Capita": 10984.3643169061,
+      "Industry_Value_Added_Pct_GDP": 28.3385128402288,
+      "Urbanization_Rate": 88.1020958581776
+    },
+    {
+      "country": "Turkey",
+      "year": 2017,
+      "iso_code": "TUR",
+      "electricity_demand": 296.71,
+      "Population": 83083667.0,
+      "renewables_share_elec": 29.345,
+      "Population_Density": 104.352348531112,
+      "GDP_Growth": 7.82585730002594,
+      "GDP_Per_Capita": 10756.3877677883,
+      "Industry_Value_Added_Pct_GDP": 29.0347245862534,
+      "Urbanization_Rate": 88.0320472717286
+    },
+    {
+      "country": "Turkey",
+      "year": 2018,
+      "iso_code": "TUR",
+      "electricity_demand": 299.52,
+      "Population": 84415966.0,
+      "renewables_share_elec": 32.257,
+      "Population_Density": 105.774468250978,
+      "GDP_Growth": 3.46815306092219,
+      "GDP_Per_Capita": 9684.11819884721,
+      "Industry_Value_Added_Pct_GDP": 29.1851848904908,
+      "Urbanization_Rate": 88.1655749576173
+    },
+    {
+      "country": "Turkey",
+      "year": 2019,
+      "iso_code": "TUR",
+      "electricity_demand": 299.6,
+      "Population": 85357670.0,
+      "renewables_share_elec": 43.797,
+      "Population_Density": 107.297584553617,
+      "GDP_Growth": 1.30162365464503,
+      "GDP_Per_Capita": 9395.23378001368,
+      "Industry_Value_Added_Pct_GDP": 27.0679926930773,
+      "Urbanization_Rate": 88.6618152857124
+    },
+    {
+      "country": "Turkey",
+      "year": 2020,
+      "iso_code": "TUR",
+      "electricity_demand": 301.41,
+      "Population": 86091691.0,
+      "renewables_share_elec": 42.162,
+      "Population_Density": 108.343853540013,
+      "GDP_Growth": 1.80306247087255,
+      "GDP_Per_Capita": 8798.11791709313,
+      "Industry_Value_Added_Pct_GDP": 27.7974533640579,
+      "Urbanization_Rate": 88.9303114965222
+    },
+    {
+      "country": "Turkey",
+      "year": 2021,
+      "iso_code": "TUR",
+      "electricity_demand": 326.03,
+      "Population": 86686254.0,
+      "renewables_share_elec": 35.4,
+      "Population_Density": 109.334768655068,
+      "GDP_Growth": 11.811094450607,
+      "GDP_Per_Capita": 9981.76398411336,
+      "Industry_Value_Added_Pct_GDP": 30.8205598235418,
+      "Urbanization_Rate": 89.1762048153239
+    },
+    {
+      "country": "Turkey",
+      "year": 2022,
+      "iso_code": "TUR",
+      "electricity_demand": 323.29,
+      "Population": 87058469.0,
+      "renewables_share_elec": 41.911,
+      "Population_Density": 110.416580694619,
+      "GDP_Growth": 5.44122511322401,
+      "GDP_Per_Capita": 10897.8397861365,
+      "Industry_Value_Added_Pct_GDP": 30.890102398727,
+      "Urbanization_Rate": 89.0381164550781
+    },
+    {
+      "country": "Turkey",
+      "year": 2023,
+      "iso_code": "TUR",
+      "electricity_demand": 323.81,
+      "Population": 87270502.0,
+      "renewables_share_elec": 42.009,
+      "Population_Density": 110.866214934449,
+      "GDP_Growth": 5.04512369812289,
+      "GDP_Per_Capita": 13375.0947282864,
+      "Industry_Value_Added_Pct_GDP": 28.1932800305474,
+      "Urbanization_Rate": 89.0218446796121
+    },
+    {
+      "country": "Turkey",
+      "year": 2024,
+      "iso_code": "TUR",
+      "electricity_demand": 340.24,
+      "Population": 87473800.0,
+      "renewables_share_elec": 45.614,
+      "Population_Density": 110.866214934449,
+      "GDP_Growth": 5.04512369812289,
+      "GDP_Per_Capita": 13375.0947282864,
+      "Industry_Value_Added_Pct_GDP": 28.1932800305474,
+      "Urbanization_Rate": 89.0218446796121
+    },
+    {
+      "country": "Turkey",
+      "year": 2025,
+      "iso_code": "TUR",
+      "electricity_demand": 351.93,
+      "Population": 87685427.0,
+      "renewables_share_elec": 43.257,
+      "Population_Density": 110.866214934449,
+      "GDP_Growth": 5.04512369812289,
+      "GDP_Per_Capita": 13375.0947282864,
+      "Industry_Value_Added_Pct_GDP": 28.1932800305474,
+      "Urbanization_Rate": 89.0218446796121
+    }
+  ]
+}
