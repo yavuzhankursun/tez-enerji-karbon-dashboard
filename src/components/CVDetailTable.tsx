@@ -21,8 +21,8 @@ export function CVDetailTable({ data, unit }: CVDetailTableProps) {
   const filtered = data.filter((d) => d.model === activeModel);
 
   return (
-    <div className="rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-sm overflow-hidden">
-      <div className="px-5 pt-5 pb-3">
+    <div className="rounded-2xl border border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-900 shadow-sm overflow-hidden">
+      <div className="px-4 md:px-5 pt-5 pb-3">
         <h4 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2">
           Cross-Validation Detaylari
         </h4>
@@ -35,10 +35,10 @@ export function CVDetailTable({ data, unit }: CVDetailTableProps) {
             <button
               key={model}
               onClick={() => setActiveModel(model)}
-              className={`rounded-full px-4 py-1.5 text-xs font-medium transition-all ${
+              className={`rounded-full px-4 py-2 md:py-1.5 text-xs font-medium transition-all min-h-[44px] md:min-h-0 ${
                 activeModel === model
                   ? "bg-gray-900 dark:bg-white text-white dark:text-gray-900 shadow-sm"
-                  : "bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
+                  : "bg-[var(--pastel-muted)] dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-[var(--pastel-muted-strong)] dark:hover:bg-gray-700"
               }`}
             >
               {model}
@@ -48,9 +48,9 @@ export function CVDetailTable({ data, unit }: CVDetailTableProps) {
       </div>
 
       <div className="overflow-x-auto">
-        <table className="w-full text-sm">
+        <table className="w-full text-sm min-w-[480px]">
           <thead>
-            <tr className="border-t border-b border-gray-100 dark:border-gray-800 bg-gray-50/60 dark:bg-gray-800/60">
+            <tr className="border-t border-b border-[var(--pastel-border-subtle)] dark:border-gray-800 bg-[var(--pastel-muted)]/60 dark:bg-gray-800/60">
               <th className="text-left px-5 py-3 font-medium text-gray-500 dark:text-gray-400 text-xs uppercase tracking-wider">
                 Yil
               </th>
@@ -72,7 +72,7 @@ export function CVDetailTable({ data, unit }: CVDetailTableProps) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: idx * 0.02 }}
-                className="border-b border-gray-50 dark:border-gray-800/50 hover:bg-gray-50/50 dark:hover:bg-gray-800/50 transition-colors"
+                className="border-b border-[var(--pastel-border-subtle)] dark:border-gray-800/50 hover:bg-[var(--pastel-muted)]/50 dark:hover:bg-gray-800/50 transition-colors"
               >
                 <td className="px-5 py-3 font-medium text-gray-800 dark:text-gray-200 tabular-nums">
                   {row.year}

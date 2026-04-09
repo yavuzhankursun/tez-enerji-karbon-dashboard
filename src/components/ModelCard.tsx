@@ -18,15 +18,15 @@ const ACCENT_MAP = {
     ring: "ring-blue-600",
     badge: "bg-blue-600 text-white",
     highlight: "text-blue-600",
-    bg: "bg-blue-50 dark:bg-blue-950/40",
-    border: "border-blue-200 dark:border-blue-800/50",
+    bg: "bg-[var(--pastel-blue)] dark:bg-blue-950/40",
+    border: "border-[var(--pastel-blue-border)] dark:border-blue-800/50",
   },
   orange: {
     ring: "ring-orange-500",
     badge: "bg-orange-500 text-white",
     highlight: "text-orange-500",
-    bg: "bg-orange-50 dark:bg-orange-950/40",
-    border: "border-orange-200 dark:border-orange-800/50",
+    bg: "bg-[var(--pastel-orange)] dark:bg-orange-950/40",
+    border: "border-[var(--pastel-orange-border)] dark:border-orange-800/50",
   },
 };
 
@@ -43,10 +43,10 @@ export function ModelCard({ metrics, isBest, accentColor }: ModelCardProps) {
     <motion.div
       whileHover={{ y: -3, scale: 1.01 }}
       transition={{ duration: 0.2 }}
-      className={`relative rounded-2xl border bg-white dark:bg-gray-900 p-6 transition-shadow ${
+      className={`relative rounded-2xl border bg-[var(--pastel-surface)] dark:bg-gray-900 p-5 md:p-6 transition-shadow ${
         isBest
           ? `${accent.border} ring-2 ${accent.ring} shadow-md`
-          : "border-gray-100 dark:border-gray-800 shadow-sm"
+          : "border-[var(--pastel-border)] dark:border-gray-800 shadow-sm"
       }`}
     >
       {isBest && (
@@ -81,7 +81,7 @@ export function ModelCard({ metrics, isBest, accentColor }: ModelCardProps) {
           </p>
         </div>
 
-        <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-1.5 overflow-hidden">
+        <div className="w-full bg-[var(--pastel-muted)] dark:bg-gray-800 rounded-full h-1.5 overflow-hidden">
           <motion.div
             initial={{ width: 0 }}
             whileInView={{ width: `${Math.max(0, metrics.r2 * 100)}%` }}
