@@ -78,6 +78,28 @@ function App() {
 
       <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
 
+      {/* Korelasyon Isi Haritasi */}
+      <section className="px-6 py-16 md:px-12 lg:px-20 max-w-4xl mx-auto">
+        <div className="text-center mb-8">
+          <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white mb-2">
+            Degiskenler Arasi Korelasyon Analizi
+          </h2>
+          <p className="text-sm text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+            Elektrik tuketimini etkileyen parametrelerin birbirleriyle iliskisi.
+            1.00'a yaklasan degerler guclu pozitif, -1.00'a yaklasan degerler guclu negatif iliski gosterir.
+          </p>
+        </div>
+        <div className="rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 shadow-sm">
+          <img
+            src="/graphs/korelasyon_isi_haritasi.png"
+            alt="Korelasyon Isi Haritasi"
+            className="w-full rounded-xl dark:bg-gray-800"
+          />
+        </div>
+      </section>
+
+      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+
       {/* Tahminler - Key Predictions First */}
       <section
         id="tahminler"
