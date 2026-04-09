@@ -109,13 +109,6 @@ export function Hero({ asama1Metrics, asama2Metrics, asama3Metrics }: HeroProps)
           variants={staggerContainer}
           className="text-center"
         >
-          <motion.p
-            variants={fadeIn}
-            className="text-sm font-medium tracking-widest uppercase text-gray-400 dark:text-gray-500 mb-4"
-          >
-            TUBITAK 2209-A Arastirma Projesi
-          </motion.p>
-
           <motion.h1
             variants={fadeIn}
             className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mb-4"
@@ -138,7 +131,7 @@ export function Hero({ asama1Metrics, asama2Metrics, asama3Metrics }: HeroProps)
             variants={fadeIn}
             className="text-sm text-gray-400 dark:text-gray-500 max-w-2xl mx-auto mb-16"
           >
-            Betul Canol, Eren Yalaz | Dansman: Yusuf Gurcan Sahin | Kocaeli Saglik ve Teknoloji Universitesi
+            Yavuzhan Kursun, Betul Canol, Eren Yalaz
           </motion.p>
 
           <motion.div
