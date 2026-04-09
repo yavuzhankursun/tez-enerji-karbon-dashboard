@@ -9,6 +9,50 @@
   --color-orange-500: #f97316;
 }
 
+/* --- Pastel Light Theme --- */
+:root {
+  --pastel-page: #faf9fe;
+  --pastel-surface: #ffffff;
+  --pastel-surface-warm: #fefefe;
+  --pastel-border: #e8e5f0;
+  --pastel-border-subtle: #f0eef5;
+  --pastel-blue: #e8f0fe;
+  --pastel-blue-border: #d0dffa;
+  --pastel-green: #e6f7ed;
+  --pastel-green-border: #c8ecd5;
+  --pastel-orange: #fff0e6;
+  --pastel-orange-border: #fddcc6;
+  --pastel-muted: #f4f2f9;
+  --pastel-muted-strong: #edeaf5;
+  --pastel-gradient-start: #ece8f5;
+  --pastel-gradient-mid: #e0ecf8;
+  --pastel-gradient-end: #f5ece4;
+  --pastel-nav-bg: rgba(255, 255, 255, 0.85);
+  --pastel-nav-border: rgba(232, 229, 240, 0.7);
+}
+
+/* Dark mode keeps all existing values, vars are unused in dark */
+.dark {
+  --pastel-page: #030712;
+  --pastel-surface: #111827;
+  --pastel-surface-warm: #111827;
+  --pastel-border: #1f2937;
+  --pastel-border-subtle: #1f2937;
+  --pastel-blue: rgba(30, 58, 138, 0.4);
+  --pastel-blue-border: rgba(30, 64, 175, 0.5);
+  --pastel-green: rgba(20, 83, 45, 0.4);
+  --pastel-green-border: rgba(22, 101, 52, 0.5);
+  --pastel-orange: rgba(124, 45, 18, 0.4);
+  --pastel-orange-border: rgba(154, 52, 18, 0.5);
+  --pastel-muted: rgba(31, 41, 55, 0.5);
+  --pastel-muted-strong: rgba(31, 41, 55, 0.6);
+  --pastel-gradient-start: #374151;
+  --pastel-gradient-mid: #374151;
+  --pastel-gradient-end: #374151;
+  --pastel-nav-bg: rgba(17, 24, 39, 0.8);
+  --pastel-nav-border: rgba(55, 65, 81, 0.6);
+}
+
 html {
   scroll-behavior: smooth;
 }

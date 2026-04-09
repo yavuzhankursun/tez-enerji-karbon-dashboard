@@ -13,17 +13,17 @@ interface StageSectionProps {
 const ACCENT_MAP = {
   green: {
     dot: "bg-green-600",
-    badge: "bg-green-50 dark:bg-green-950/40 text-green-600 border-green-200 dark:border-green-800/50",
+    badge: "bg-[var(--pastel-green)] dark:bg-green-950/40 text-green-600 border-[var(--pastel-green-border)] dark:border-green-800/50",
     line: "from-green-600/20 to-transparent",
   },
   blue: {
     dot: "bg-blue-600",
-    badge: "bg-blue-50 dark:bg-blue-950/40 text-blue-600 border-blue-200 dark:border-blue-800/50",
+    badge: "bg-[var(--pastel-blue)] dark:bg-blue-950/40 text-blue-600 border-[var(--pastel-blue-border)] dark:border-blue-800/50",
     line: "from-blue-600/20 to-transparent",
   },
   orange: {
     dot: "bg-orange-500",
-    badge: "bg-orange-50 dark:bg-orange-950/40 text-orange-500 border-orange-200 dark:border-orange-800/50",
+    badge: "bg-[var(--pastel-orange)] dark:bg-orange-950/40 text-orange-500 border-[var(--pastel-orange-border)] dark:border-orange-800/50",
     line: "from-orange-500/20 to-transparent",
   },
 };
@@ -54,7 +54,7 @@ export function StageSection({
       whileInView="visible"
       viewport={{ once: true, amount: 0.05 }}
       variants={fadeInUp}
-      className="px-6 py-20 md:px-12 lg:px-20 max-w-6xl mx-auto"
+      className="px-4 py-16 md:py-20 md:px-12 lg:px-20 max-w-6xl mx-auto"
     >
       <div className="mb-10">
         <div className="flex items-center gap-3 mb-3">

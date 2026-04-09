@@ -64,7 +64,7 @@ function App() {
   const co2HistoricalMerged = co2FromCV.length > 0 ? co2FromCV : co2Historical;
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-200">
+    <div className="min-h-screen overflow-x-hidden bg-[var(--pastel-page)] dark:bg-gray-950 transition-colors duration-200">
       <ThemeToggle isDark={isDark} toggle={toggleDark} />
       <Navigation />
 
@@ -76,10 +76,10 @@ function App() {
         />
       </div>
 
-      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
       {/* Korelasyon Isi Haritasi */}
-      <section className="px-6 py-16 md:px-12 lg:px-20 max-w-4xl mx-auto">
+      <section className="px-4 py-16 md:px-12 lg:px-20 max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white mb-2">
             Degiskenler Arasi Korelasyon Analizi
@@ -89,7 +89,7 @@ function App() {
             1.00'a yaklasan degerler guclu pozitif, -1.00'a yaklasan degerler guclu negatif iliski gosterir.
           </p>
         </div>
-        <div className="rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 shadow-sm">
+        <div className="rounded-2xl border border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-900 p-4 shadow-sm">
           <img
             src="/graphs/korelasyon_isi_haritasi.png"
             alt="Korelasyon Isi Haritasi"
@@ -98,17 +98,17 @@ function App() {
         </div>
       </section>
 
-      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
       {/* Tahminler - Key Predictions First */}
       <section
         id="tahminler"
-        className="px-6 py-20 md:px-12 lg:px-20 max-w-6xl mx-auto"
+        className="px-4 py-20 md:px-12 lg:px-20 max-w-6xl mx-auto"
       >
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-3">
             <span className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-blue-600 to-orange-500" />
-            <span className="inline-flex items-center rounded-full border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/60 px-3 py-0.5 text-xs font-semibold text-gray-600 dark:text-gray-300">
+            <span className="inline-flex items-center rounded-full border border-[var(--pastel-border)] dark:border-gray-700 bg-[var(--pastel-muted)] dark:bg-gray-800/60 px-3 py-0.5 text-xs font-semibold text-gray-600 dark:text-gray-300">
               Tahminler
             </span>
           </div>
@@ -144,7 +144,7 @@ function App() {
         </div>
       </section>
 
-      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
       {/* Asama 2 - Elektrik Detay */}
       <StageSection
@@ -175,7 +175,7 @@ function App() {
         </div>
       </StageSection>
 
-      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
       {/* Asama 3 - Karbon Detay */}
       <StageSection
@@ -206,7 +206,7 @@ function App() {
         </div>
       </StageSection>
 
-      <div className="h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
       {/* Asama 1 - Parametre Analizi (en teknik, en sonda) */}
       <StageSection

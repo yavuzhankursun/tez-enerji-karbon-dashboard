@@ -101,7 +101,7 @@ export function ForecastSummaryCard({
       className="grid grid-cols-1 md:grid-cols-2 gap-5"
     >
       {/* Elektrik Tahmini */}
-      <div className="rounded-2xl border border-blue-200 dark:border-blue-800/50 bg-blue-50/50 dark:bg-blue-950/30 p-6">
+      <div className="rounded-2xl border border-[var(--pastel-blue-border)] dark:border-blue-800/50 bg-[var(--pastel-blue)]/50 dark:bg-blue-950/30 p-5 md:p-6">
         <div className="flex items-center gap-2 mb-1">
           <span className="w-2 h-2 rounded-full bg-blue-600" />
           <p className="text-xs font-medium uppercase tracking-wider text-gray-400 dark:text-gray-500">
@@ -118,7 +118,7 @@ export function ForecastSummaryCard({
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 {item.model}
               </span>
-              <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+              <span className="text-2xl md:text-3xl font-bold text-blue-600 dark:text-blue-400">
                 <AnimatedNumber value={item.value} unit={item.unit} />
               </span>
             </div>
@@ -127,7 +127,7 @@ export function ForecastSummaryCard({
       </div>
 
       {/* Karbon Tahmini */}
-      <div className="rounded-2xl border border-orange-200 dark:border-orange-800/50 bg-orange-50/50 dark:bg-orange-950/30 p-6">
+      <div className="rounded-2xl border border-[var(--pastel-orange-border)] dark:border-orange-800/50 bg-[var(--pastel-orange)]/50 dark:bg-orange-950/30 p-5 md:p-6">
         <div className="flex items-center gap-2 mb-1">
           <span className="w-2 h-2 rounded-full bg-orange-500" />
           <p className="text-xs font-medium uppercase tracking-wider text-gray-400 dark:text-gray-500">
@@ -144,7 +144,7 @@ export function ForecastSummaryCard({
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 {item.model}
               </span>
-              <span className="text-3xl font-bold text-orange-500 dark:text-orange-400">
+              <span className="text-2xl md:text-3xl font-bold text-orange-500 dark:text-orange-400">
                 <AnimatedNumber value={item.value} unit={item.unit} />
               </span>
             </div>

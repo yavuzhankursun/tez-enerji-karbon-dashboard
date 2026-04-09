@@ -24,7 +24,7 @@ export function SectionWrapper({ id, children, className = "" }: SectionWrapperP
       whileInView="visible"
       viewport={{ once: true, amount: 0.1 }}
       variants={fadeInUp}
-      className={`px-6 py-20 md:px-12 lg:px-20 ${className}`}
+      className={`px-4 py-16 md:py-20 md:px-12 lg:px-20 ${className}`}
     >
       {children}
     </motion.section>

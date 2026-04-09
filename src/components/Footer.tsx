@@ -6,7 +6,7 @@ const VERI_KAYNAKLARI = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-950 px-6 py-16">
+    <footer className="border-t border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-950 px-4 md:px-6 py-12 md:py-16">
       <div className="max-w-5xl mx-auto">
 
         {/* Veri Kaynaklari */}
@@ -21,8 +21,8 @@ export function Footer() {
                 href={v.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block p-4 rounded-xl border border-gray-100 dark:border-gray-800
-                           hover:border-gray-200 dark:hover:border-gray-700 transition-colors"
+                className="group block p-4 rounded-xl border border-[var(--pastel-border)] dark:border-gray-800
+                           hover:border-[var(--pastel-muted-strong)] dark:hover:border-gray-700 transition-colors"
               >
                 <p className="text-sm font-medium text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                   {v.isim}
@@ -36,7 +36,7 @@ export function Footer() {
         </div>
 
         {/* Alt bilgi */}
-        <div className="pt-8 border-t border-gray-100 dark:border-gray-800 text-center">
+        <div className="pt-8 border-t border-[var(--pastel-border)] dark:border-gray-800 text-center">
           <p className="text-xs text-gray-400 dark:text-gray-500 tracking-wide">
             Makine Ogrenmesi ile Enerji Tuketimi Tahmini ve Karbon Ayak Izi Analizi
           </p>
