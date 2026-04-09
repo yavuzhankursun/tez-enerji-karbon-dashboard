@@ -34,7 +34,7 @@ function MoonIcon() {
 export function ThemeToggle({ isDark, toggle }: ThemeToggleProps) {
   const [sweepPhase, setSweepPhase] = useState<"idle" | "down" | "done">("idle");
   const overlayRef = useRef<HTMLDivElement | null>(null);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const targetColor = isDark ? "#f0edf8" : "#030712";
 
