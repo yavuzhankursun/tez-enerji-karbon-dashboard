@@ -39,15 +39,15 @@ function formatNumber(value: number | null): string {
 
 export function MetricsTable({ metrics }: MetricsTableProps) {
   return (
-    <div className="overflow-x-auto rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-sm">
-      <div className="px-5 pt-5 pb-3">
-        <p className="text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/50 rounded-xl px-4 py-3 leading-relaxed">
+    <div className="overflow-x-auto rounded-2xl border border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-900 shadow-sm">
+      <div className="px-4 md:px-5 pt-5 pb-3">
+        <p className="text-sm text-gray-500 dark:text-gray-400 bg-[var(--pastel-muted)] dark:bg-gray-800/50 rounded-xl px-4 py-3 leading-relaxed">
           Her parametre icin ayri model egitildi. R2 degeri 1'e yaklastikca model o parametreyi daha iyi tahmin edebiliyor demektir.
         </p>
       </div>
-      <table className="w-full text-sm">
+      <table className="w-full text-sm min-w-[640px]">
         <thead>
-          <tr className="border-b border-gray-100 dark:border-gray-800 bg-gray-50/60 dark:bg-gray-800/60">
+          <tr className="border-b border-[var(--pastel-border-subtle)] dark:border-gray-800 bg-[var(--pastel-muted)]/60 dark:bg-gray-800/60">
             <th className="text-left px-5 py-3.5 font-medium text-gray-500 dark:text-gray-400 text-xs uppercase tracking-wider">
               Feature
             </th>
@@ -79,13 +79,13 @@ export function MetricsTable({ metrics }: MetricsTableProps) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.03, duration: 0.3 }}
-              className="border-b border-gray-50 dark:border-gray-800/50 hover:bg-gray-50/50 dark:hover:bg-gray-800/50 transition-colors"
+              className="border-b border-[var(--pastel-border-subtle)] dark:border-gray-800/50 hover:bg-[var(--pastel-muted)]/50 dark:hover:bg-gray-800/50 transition-colors"
             >
               <td className="px-5 py-3.5 font-medium text-gray-800 dark:text-gray-200">
                 {FEATURE_LABELS[m.feature] ?? m.feature}
               </td>
               <td className="px-5 py-3.5">
-                <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-800 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-300">
+                <span className="inline-flex items-center rounded-full bg-[var(--pastel-muted)] dark:bg-gray-800 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-300">
                   {m.secilen_model}
                 </span>
               </td>

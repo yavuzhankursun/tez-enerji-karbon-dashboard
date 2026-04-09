@@ -97,10 +97,10 @@ export function GraphGallery({ images, columns = 3 }: GraphGalleryProps) {
             transition={{ delay: idx * 0.04, duration: 0.35 }}
             whileHover={{ y: -2, scale: 1.02 }}
             onClick={() => setSelectedImage(src)}
-            className="group rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 p-2 shadow-sm hover:shadow-md transition-all cursor-pointer text-left"
+            className="group rounded-xl border border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-900 p-2 shadow-sm hover:shadow-md transition-all cursor-pointer text-left"
             aria-label={`Grafigi buyut: ${humanizeFilename(src)}`}
           >
-            <div className="relative overflow-hidden rounded-lg bg-gray-50 dark:bg-gray-800">
+            <div className="relative overflow-hidden rounded-lg bg-[var(--pastel-muted)] dark:bg-gray-800">
               <img
                 src={src}
                 alt={humanizeFilename(src)}
@@ -120,7 +120,7 @@ export function GraphGallery({ images, columns = 3 }: GraphGalleryProps) {
         <div className="text-center mt-6">
           <button
             onClick={() => setVisibleCount((prev) => prev + 6)}
-            className="inline-flex items-center gap-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-5 py-2.5 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
+            className="inline-flex items-center gap-2 rounded-full border border-[var(--pastel-border)] dark:border-gray-700 bg-[var(--pastel-surface)] dark:bg-gray-800 px-5 py-3 md:py-2.5 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-[var(--pastel-muted)] dark:hover:bg-gray-700 hover:border-[var(--pastel-muted-strong)] dark:hover:border-gray-600 transition-colors min-h-[44px]"
           >
             Daha fazla goster ({images.length - visibleCount} grafik kaldi)
           </button>

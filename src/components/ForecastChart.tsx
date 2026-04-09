@@ -108,7 +108,7 @@ function CustomTooltip({
   if (!active || !payload || payload.length === 0) return null;
 
   return (
-    <div className="rounded-xl border border-gray-100 dark:border-gray-700 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm p-3 shadow-lg">
+    <div className="rounded-xl border border-[var(--pastel-border)] dark:border-gray-700 bg-[var(--pastel-surface)]/95 dark:bg-gray-800/95 backdrop-blur-sm p-3 shadow-lg">
       <p className="text-xs font-semibold text-gray-800 dark:text-gray-200 mb-2">{label}</p>
       {payload.map((entry) =>
         entry.value != null ? (
@@ -145,10 +145,10 @@ export function ForecastChart(props: ForecastChartProps) {
     ? { hist: isDark ? "#9ca3af" : "#374151", rf: "#2563eb", xgb: "#7c3aed", lstm: "#0891b2" }
     : { hist: isDark ? "#9ca3af" : "#374151", rf: "#f97316", xgb: "#dc2626", lstm: "#ea580c" };
 
-  const gridStroke = isDark ? "#374151" : "#f3f4f6";
+  const gridStroke = isDark ? "#374151" : "#f0eef5";
   const axisTickFill = isDark ? "#9ca3af" : "#9ca3af";
-  const axisLineStroke = isDark ? "#4b5563" : "#e5e7eb";
-  const refLineStroke = isDark ? "#4b5563" : "#d1d5db";
+  const axisLineStroke = isDark ? "#4b5563" : "#e8e5f0";
+  const refLineStroke = isDark ? "#4b5563" : "#d5d0e3";
   const refLabelFill = isDark ? "#6b7280" : "#9ca3af";
 
   const lastHistoricalYear =
@@ -165,7 +165,7 @@ export function ForecastChart(props: ForecastChartProps) {
     : "Turkiye'nin toplam CO2 emisyonu ve 2026-2030 icin tahminler. Elektrik tuketimi arttikca karbon emisyonu da artmaktadir.";
 
   return (
-    <div className="rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 p-5 shadow-sm">
+    <div className="rounded-2xl border border-[var(--pastel-border)] dark:border-gray-800 bg-[var(--pastel-surface)] dark:bg-gray-900 p-4 md:p-5 shadow-sm">
       <h4 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">
         {isElectricity
           ? "Elektrik Talebi Tahminleri (TWh)"
@@ -174,14 +174,14 @@ export function ForecastChart(props: ForecastChartProps) {
       <p className="text-xs text-gray-400 dark:text-gray-500 mb-3">
         Gercek veriler ve 2026-2030 model projeksiyonlari
       </p>
-      <p className="text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/50 rounded-xl px-4 py-3 mb-5 leading-relaxed">
+      <p className="text-sm text-gray-500 dark:text-gray-400 bg-[var(--pastel-muted)] dark:bg-gray-800/50 rounded-xl px-4 py-3 mb-5 leading-relaxed">
         {explanationText}
       </p>
 
-      <ResponsiveContainer width="100%" height={420}>
+      <ResponsiveContainer width="100%" height={340} className="md:!h-[420px]">
         <LineChart
           data={chartData}
-          margin={{ top: 10, right: 20, left: 20, bottom: 30 }}
+          margin={{ top: 10, right: 10, left: 5, bottom: 30 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
           <XAxis
