@@ -11,24 +11,24 @@
 
 /* --- Pastel Light Theme --- */
 :root {
-  --pastel-page: #faf9fe;
-  --pastel-surface: #ffffff;
-  --pastel-surface-warm: #fefefe;
-  --pastel-border: #e8e5f0;
-  --pastel-border-subtle: #f0eef5;
-  --pastel-blue: #e8f0fe;
-  --pastel-blue-border: #d0dffa;
-  --pastel-green: #e6f7ed;
-  --pastel-green-border: #c8ecd5;
-  --pastel-orange: #fff0e6;
-  --pastel-orange-border: #fddcc6;
-  --pastel-muted: #f4f2f9;
-  --pastel-muted-strong: #edeaf5;
-  --pastel-gradient-start: #ece8f5;
-  --pastel-gradient-mid: #e0ecf8;
-  --pastel-gradient-end: #f5ece4;
-  --pastel-nav-bg: rgba(255, 255, 255, 0.85);
-  --pastel-nav-border: rgba(232, 229, 240, 0.7);
+  --pastel-page: #f0edf8;
+  --pastel-surface: #f7f5fc;
+  --pastel-surface-warm: #f5f2fa;
+  --pastel-border: #ddd8eb;
+  --pastel-border-subtle: #e8e4f2;
+  --pastel-blue: #dce8fc;
+  --pastel-blue-border: #bdd0f7;
+  --pastel-green: #d6f0e0;
+  --pastel-green-border: #b3e0c5;
+  --pastel-orange: #fce8d8;
+  --pastel-orange-border: #f5cfb3;
+  --pastel-muted: #eae6f4;
+  --pastel-muted-strong: #dfd9ef;
+  --pastel-gradient-start: #e0d8f0;
+  --pastel-gradient-mid: #d4e2f5;
+  --pastel-gradient-end: #f0e0d4;
+  --pastel-nav-bg: rgba(244, 241, 252, 0.9);
+  --pastel-nav-border: rgba(221, 216, 235, 0.8);
 }
 
 /* Dark mode keeps all existing values, vars are unused in dark */
