@@ -44,7 +44,7 @@ Three models trained with Optuna hyperparameter optimization predict Turkey's el
 ### Stage 3: Carbon Footprint Projection
 
 Combines electricity demand forecasts with feature predictions to project CO2 emissions (MtCO2) for 2026-2030. LSTM achieves the highest accuracy in this stage.
-
+ 
 ## Tech Stack
 
 | Layer | Technology |
