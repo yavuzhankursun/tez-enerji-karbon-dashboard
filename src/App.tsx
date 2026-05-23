@@ -7,6 +7,8 @@ import { Hero } from "./components/Hero";
 import { StageSection } from "./components/StageSection";
 import { MetricsTable } from "./components/MetricsTable";
 import { ModelCard } from "./components/ModelCard";
+import { R2ComparisonSection } from "./components/R2ComparisonSection";
+import { FeatureImportanceSection } from "./components/FeatureImportanceSection";
 import { ForecastChart } from "./components/ForecastChart";
 import { ForecastSummaryCard } from "./components/ForecastSummaryCard";
 import { GraphGallery } from "./components/GraphGallery";
@@ -97,6 +99,16 @@ function App() {
           />
         </div>
       </section>
+
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
+
+      {/* Model Karsilastirmasi - R2 Skorlari (3 asama alt alta) */}
+      <R2ComparisonSection
+        asama1={data.asama1_metrikler}
+        asama2={data.asama2_metrikler}
+        asama3={data.asama3_metrikler}
+        isDark={isDark}
+      />
 
       <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
 
@@ -225,6 +237,11 @@ function App() {
           <GraphGallery images={asama1Images} columns={3} />
         </div>
       </StageSection>
+
+      <div className="h-px bg-gradient-to-r from-[var(--pastel-gradient-start)] via-[var(--pastel-gradient-mid)] to-[var(--pastel-gradient-end)] dark:from-transparent dark:via-gray-700 dark:to-transparent" />
+
+      {/* Feature Importance - Etki Analizi (en sonda) */}
+      <FeatureImportanceSection />
 
       <Footer />
     </div>
