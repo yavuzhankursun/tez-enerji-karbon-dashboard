@@ -2,9 +2,10 @@ export interface Asama1Metric {
   feature: string;
   country: string;
   secilen_model: string;
-  wf_cv_r2: number;
-  wf_cv_mape: number;
-  wf_cv_rmse: number;
+  wf_cv_r2: number | null;
+  wf_cv_mae?: number | null;
+  wf_cv_mape: number | null;
+  wf_cv_rmse: number | null;
   wf_cv_n: number;
 }
 
@@ -12,20 +13,25 @@ export interface Asama1Tahmin {
   country: string;
   iso_code: string;
   year: number;
-  Population: number;
-  GDP_Per_Capita: number;
-  GDP_Growth: number;
-  renewables_share_elec: number;
-  Urbanization_Rate: number;
-  Industry_Value_Added_Pct_GDP: number;
-  Population_Density: number;
-  fossil_fuel_consumption: number;
-  nuclear_consumption: number;
-  coal_co2: number;
-  gas_co2: number;
-  co2_per_capita: number;
-  Electricity_Loss_Pct: number | null;
-  temperature_change_from_ghg: number;
+  Population?: number;
+  GDP_Per_Capita?: number;
+  GDP_Growth?: number;
+  renewables_share_elec?: number;
+  Urbanization_Rate?: number;
+  Industry_Value_Added_Pct_GDP?: number;
+  Population_Density?: number;
+  fossil_fuel_consumption?: number;
+  nuclear_consumption?: number;
+  primary_energy_consumption?: number;
+  energy_per_capita?: number;
+  energy_per_gdp?: number;
+  nuclear_share_elec?: number;
+  fossil_share_elec?: number;
+  coal_co2?: number;
+  gas_co2?: number;
+  co2_per_capita?: number;
+  Electricity_Loss_Pct?: number | null;
+  temperature_change_from_ghg?: number;
 }
 
 export interface Asama2Metric {
@@ -34,7 +40,7 @@ export interface Asama2Metric {
   mae: number;
   mape: number;
   r2: number;
-  rmsle: number;
+  rmsle?: number;
   optuna_cv_rmse: number;
 }
 
