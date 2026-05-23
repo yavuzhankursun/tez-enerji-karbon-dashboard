@@ -3,10 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_ITEMS = [
   { id: "hero", label: "Genel Bakis", shortLabel: "Genel" },
+  { id: "r2-karsilastirma", label: "R2 Skorlari", shortLabel: "R2" },
   { id: "tahminler", label: "Tahminler", shortLabel: "Tahmin" },
   { id: "asama2", label: "Elektrik Detay", shortLabel: "Elektrik" },
   { id: "asama3", label: "Karbon Detay", shortLabel: "Karbon" },
   { id: "asama1", label: "Parametre Analizi", shortLabel: "Param." },
+  { id: "etki-analizi", label: "Etki Analizi", shortLabel: "Etki" },
 ];
 
 export function Navigation() {
