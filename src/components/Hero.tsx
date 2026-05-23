@@ -8,9 +8,11 @@ interface HeroProps {
 }
 
 function computeAsama1AvgR2(metrics: Asama1Metric[]): number {
-  const validMetrics = metrics.filter((m) => m.wf_cv_r2 > 0);
+  const validMetrics = metrics.filter(
+    (m) => m.wf_cv_r2 != null && !Number.isNaN(m.wf_cv_r2) && m.wf_cv_r2 > 0
+  );
   if (validMetrics.length === 0) return 0;
-  const sum = validMetrics.reduce((acc, m) => acc + m.wf_cv_r2, 0);
+  const sum = validMetrics.reduce((acc, m) => acc + (m.wf_cv_r2 ?? 0), 0);
   return sum / validMetrics.length;
 }
 

@@ -74,7 +74,7 @@ export function MetricsTable({ metrics }: MetricsTableProps) {
         <tbody>
           {metrics.map((m, idx) => (
             <motion.tr
-              key={m.feature}
+              key={`${m.feature}-${m.country}-${idx}`}
               initial={{ opacity: 0, x: -10 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -91,9 +91,9 @@ export function MetricsTable({ metrics }: MetricsTableProps) {
               </td>
               <td className="px-5 py-3.5 text-right">
                 <span
-                  className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-semibold ${r2ColorClass(m.wf_cv_r2)}`}
+                  className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-semibold ${r2ColorClass(m.wf_cv_r2 ?? 0)}`}
                 >
-                  {m.wf_cv_r2.toFixed(4)}
+                  {m.wf_cv_r2 != null && !Number.isNaN(m.wf_cv_r2) ? m.wf_cv_r2.toFixed(4) : "—"}
                 </span>
               </td>
               <td className="px-5 py-3.5 text-right text-gray-600 dark:text-gray-400 tabular-nums">

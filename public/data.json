@@ -1,57 +1,33 @@
 {
   "asama1_metrikler": [
     {
+      "feature": "nuclear_share_elec",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 1.0,
+      "wf_cv_mae": 0.0,
+      "wf_cv_rmse": 0.0,
+      "wf_cv_mape": null,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "nuclear_consumption",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 1.0,
+      "wf_cv_mae": 0.0,
+      "wf_cv_rmse": 0.0,
+      "wf_cv_mape": null,
+      "wf_cv_n": 24
+    },
+    {
       "feature": "Population",
       "country": "Turkey",
       "secilen_model": "Linear",
       "wf_cv_r2": 0.9991,
-      "wf_cv_mape": 0.156,
+      "wf_cv_mae": 125193.9918,
       "wf_cv_rmse": 214057.2224,
-      "wf_cv_n": 24
-    },
-    {
-      "feature": "GDP_Per_Capita",
-      "country": "Turkey",
-      "secilen_model": "Linear",
-      "wf_cv_r2": 0.7443,
-      "wf_cv_mape": 11.6784,
-      "wf_cv_rmse": 1287.8783,
-      "wf_cv_n": 24
-    },
-    {
-      "feature": "GDP_Growth",
-      "country": "Turkey",
-      "secilen_model": "XGBoost",
-      "wf_cv_r2": -0.2467,
-      "wf_cv_mape": 71.1149,
-      "wf_cv_rmse": 3.9513,
-      "wf_cv_n": 24
-    },
-    {
-      "feature": "renewables_share_elec",
-      "country": "Turkey",
-      "secilen_model": "XGBoost",
-      "wf_cv_r2": 0.4822,
-      "wf_cv_mape": 17.5689,
-      "wf_cv_rmse": 6.0183,
-      "wf_cv_n": 24
-    },
-    {
-      "feature": "Urbanization_Rate",
-      "country": "Turkey",
-      "secilen_model": "Linear",
-      "wf_cv_r2": 0.9887,
-      "wf_cv_mape": 0.9275,
-      "wf_cv_rmse": 1.1902,
-      "wf_cv_n": 24
-    },
-    {
-      "feature": "Industry_Value_Added_Pct_GDP",
-      "country": "Turkey",
-      "secilen_model": "XGBoost",
-      "wf_cv_r2": 0.4843,
-      "wf_cv_mape": 3.5712,
-      "wf_cv_rmse": 1.3178,
+      "wf_cv_mape": 0.156,
       "wf_cv_n": 24
     },
     {
@@ -59,63 +35,150 @@
       "country": "Turkey",
       "secilen_model": "Linear",
       "wf_cv_r2": 0.9968,
-      "wf_cv_mape": 0.3211,
+      "wf_cv_mae": 0.3193,
       "wf_cv_rmse": 0.458,
+      "wf_cv_mape": 0.3211,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "Urbanization_Rate",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.9887,
+      "wf_cv_mae": 0.7523,
+      "wf_cv_rmse": 1.1902,
+      "wf_cv_mape": 0.9275,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "primary_energy_consumption",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.9788,
+      "wf_cv_mae": 48.8325,
+      "wf_cv_rmse": 56.4986,
+      "wf_cv_mape": 3.4111,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "energy_per_capita",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.961,
+      "wf_cv_mae": 559.7627,
+      "wf_cv_rmse": 649.5724,
+      "wf_cv_mape": 3.0932,
       "wf_cv_n": 24
     },
     {
       "feature": "fossil_fuel_consumption",
       "country": "Turkey",
       "secilen_model": "Linear",
-      "wf_cv_r2": 0.7539,
-      "wf_cv_mape": 3.8644,
-      "wf_cv_rmse": 67.6905,
-      "wf_cv_n": 12
-    },
-    {
-      "feature": "nuclear_consumption",
-      "country": "Turkey",
-      "secilen_model": "Linear",
-      "wf_cv_r2": 1.0,
-      "wf_cv_mape": NaN,
-      "wf_cv_rmse": 0.0,
-      "wf_cv_n": 12
+      "wf_cv_r2": 0.9598,
+      "wf_cv_mae": 49.7554,
+      "wf_cv_rmse": 57.7369,
+      "wf_cv_mape": 3.9008,
+      "wf_cv_n": 24
     },
     {
       "feature": "coal_co2",
       "country": "Turkey",
       "secilen_model": "Linear",
-      "wf_cv_r2": 0.6821,
-      "wf_cv_mape": 4.4096,
-      "wf_cv_rmse": 10.2201,
-      "wf_cv_n": 12
-    },
-    {
-      "feature": "gas_co2",
-      "country": "Turkey",
-      "secilen_model": "XGBoost",
-      "wf_cv_r2": -0.3534,
-      "wf_cv_mape": 8.5217,
-      "wf_cv_rmse": 10.6067,
-      "wf_cv_n": 12
+      "wf_cv_r2": 0.92,
+      "wf_cv_mae": 7.1294,
+      "wf_cv_rmse": 9.375,
+      "wf_cv_mape": 5.0812,
+      "wf_cv_n": 24
     },
     {
       "feature": "co2_per_capita",
       "country": "Turkey",
       "secilen_model": "Linear",
-      "wf_cv_r2": 0.1195,
-      "wf_cv_mape": 4.0173,
-      "wf_cv_rmse": 0.2514,
-      "wf_cv_n": 12
+      "wf_cv_r2": 0.8945,
+      "wf_cv_mae": 0.1677,
+      "wf_cv_rmse": 0.2124,
+      "wf_cv_mape": 3.5995,
+      "wf_cv_n": 24
     },
     {
       "feature": "temperature_change_from_ghg",
       "country": "Turkey",
       "secilen_model": "Linear",
       "wf_cv_r2": 0.8383,
-      "wf_cv_mape": 3.059,
+      "wf_cv_mae": 0.0003,
       "wf_cv_rmse": 0.0004,
+      "wf_cv_mape": 3.059,
       "wf_cv_n": 12
+    },
+    {
+      "feature": "gas_co2",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.8229,
+      "wf_cv_mae": 6.9461,
+      "wf_cv_rmse": 9.6122,
+      "wf_cv_mape": 8.3189,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "energy_per_gdp",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.7574,
+      "wf_cv_mae": 0.0265,
+      "wf_cv_rmse": 0.0341,
+      "wf_cv_mape": 2.7525,
+      "wf_cv_n": 21
+    },
+    {
+      "feature": "GDP_Per_Capita",
+      "country": "Turkey",
+      "secilen_model": "Linear",
+      "wf_cv_r2": 0.7443,
+      "wf_cv_mae": 1062.0023,
+      "wf_cv_rmse": 1287.8783,
+      "wf_cv_mape": 11.6784,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "renewables_share_elec",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": 0.5743,
+      "wf_cv_mae": 4.6908,
+      "wf_cv_rmse": 5.4571,
+      "wf_cv_mape": 16.3003,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "fossil_share_elec",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": 0.5502,
+      "wf_cv_mae": 4.6751,
+      "wf_cv_rmse": 5.6096,
+      "wf_cv_mape": 6.9231,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "Industry_Value_Added_Pct_GDP",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": 0.4998,
+      "wf_cv_mae": 1.01,
+      "wf_cv_rmse": 1.2977,
+      "wf_cv_mape": 3.7141,
+      "wf_cv_n": 24
+    },
+    {
+      "feature": "GDP_Growth",
+      "country": "Turkey",
+      "secilen_model": "XGBoost",
+      "wf_cv_r2": -0.2458,
+      "wf_cv_mae": 2.9914,
+      "wf_cv_rmse": 3.9499,
+      "wf_cv_mape": 71.0419,
+      "wf_cv_n": 24
     }
   ],
   "asama1_tahminler": [
@@ -125,17 +188,22 @@
       "year": 2021,
       "Population": 86591729.88571,
       "GDP_Per_Capita": 9574.082486,
-      "GDP_Growth": 5.691967,
-      "renewables_share_elec": 35.634178,
+      "GDP_Growth": 5.675174,
+      "renewables_share_elec": 40.256046,
       "Urbanization_Rate": 89.018605,
-      "Industry_Value_Added_Pct_GDP": 30.815979,
+      "Industry_Value_Added_Pct_GDP": 29.985786,
       "Population_Density": 109.14675,
-      "fossil_fuel_consumption": 1563.602475,
+      "fossil_fuel_consumption": 1537.714463,
       "nuclear_consumption": 0.0,
-      "coal_co2": 167.711614,
-      "gas_co2": 115.143791,
-      "co2_per_capita": 5.104241,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 1895.460187,
+      "energy_per_capita": 21938.84494,
+      "energy_per_gdp": 0.872276,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 59.465679,
+      "coal_co2": 167.052158,
+      "gas_co2": 101.454042,
+      "co2_per_capita": 5.15132,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.010414
     },
     {
@@ -144,17 +212,22 @@
       "year": 2022,
       "Population": 86901608.969123,
       "GDP_Per_Capita": 10502.687216,
-      "GDP_Growth": 4.94852,
-      "renewables_share_elec": 41.823181,
+      "GDP_Growth": 4.948318,
+      "renewables_share_elec": 42.092068,
       "Urbanization_Rate": 89.038222,
-      "Industry_Value_Added_Pct_GDP": 30.904825,
+      "Industry_Value_Added_Pct_GDP": 30.873987,
       "Population_Density": 109.782373,
-      "fossil_fuel_consumption": 1640.316468,
+      "fossil_fuel_consumption": 1586.189952,
       "nuclear_consumption": 0.0,
-      "coal_co2": 176.222951,
-      "gas_co2": 100.66581,
-      "co2_per_capita": 5.29567,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 1942.423561,
+      "energy_per_capita": 22434.229827,
+      "energy_per_gdp": 0.85927,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 57.821072,
+      "coal_co2": 175.162475,
+      "gas_co2": 107.941102,
+      "co2_per_capita": 5.374118,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.010718
     },
     {
@@ -163,17 +236,22 @@
       "year": 2023,
       "Population": 87086680.440592,
       "GDP_Per_Capita": 11339.668723,
-      "GDP_Growth": 4.822739,
-      "renewables_share_elec": 42.714314,
+      "GDP_Growth": 4.822537,
+      "renewables_share_elec": 41.789909,
       "Urbanization_Rate": 89.089867,
-      "Industry_Value_Added_Pct_GDP": 28.252705,
+      "Industry_Value_Added_Pct_GDP": 28.759808,
       "Population_Density": 110.341173,
-      "fossil_fuel_consumption": 1688.950403,
+      "fossil_fuel_consumption": 1630.300072,
       "nuclear_consumption": 0.0,
-      "coal_co2": 181.788394,
-      "gas_co2": 105.122574,
-      "co2_per_capita": 5.423488,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 1996.491739,
+      "energy_per_capita": 22932.677486,
+      "energy_per_gdp": 0.851243,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 59.177887,
+      "coal_co2": 181.77872,
+      "gas_co2": 113.243581,
+      "co2_per_capita": 5.507914,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.010976
     },
     {
@@ -182,17 +260,22 @@
       "year": 2024,
       "Population": 87227058.275323,
       "GDP_Per_Capita": 12060.365555,
-      "GDP_Growth": 4.682126,
-      "renewables_share_elec": 42.398964,
+      "GDP_Growth": 4.681923,
+      "renewables_share_elec": 42.219852,
       "Urbanization_Rate": 89.256896,
-      "Industry_Value_Added_Pct_GDP": 28.056032,
+      "Industry_Value_Added_Pct_GDP": 28.096813,
       "Population_Density": 110.912772,
-      "fossil_fuel_consumption": 1724.988561,
+      "fossil_fuel_consumption": 1671.90659,
       "nuclear_consumption": 0.0,
-      "coal_co2": 185.801536,
-      "gas_co2": 104.747986,
-      "co2_per_capita": 5.521715,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2048.717136,
+      "energy_per_capita": 23402.500923,
+      "energy_per_gdp": 0.842789,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 58.329079,
+      "coal_co2": 187.228487,
+      "gas_co2": 117.800131,
+      "co2_per_capita": 5.603156,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.011228
     },
     {
@@ -201,17 +284,22 @@
       "year": 2025,
       "Population": 87409120.753791,
       "GDP_Per_Capita": 12683.512154,
-      "GDP_Growth": 4.682126,
-      "renewables_share_elec": 41.322632,
+      "GDP_Growth": 4.681923,
+      "renewables_share_elec": 41.05925,
       "Urbanization_Rate": 89.60114,
-      "Industry_Value_Added_Pct_GDP": 28.466969,
+      "Industry_Value_Added_Pct_GDP": 28.38554,
       "Population_Density": 111.57294,
-      "fossil_fuel_consumption": 1762.247419,
+      "fossil_fuel_consumption": 1712.078125,
       "nuclear_consumption": 0.0,
-      "coal_co2": 189.627096,
-      "gas_co2": 103.151726,
-      "co2_per_capita": 5.608873,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2101.462857,
+      "energy_per_capita": 23859.111838,
+      "energy_per_gdp": 0.833016,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 58.107521,
+      "coal_co2": 192.011022,
+      "gas_co2": 121.921429,
+      "co2_per_capita": 5.688766,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.011481
     },
     {
@@ -220,17 +308,22 @@
       "year": 2026,
       "Population": 87716182.079139,
       "GDP_Per_Capita": 13231.737186,
-      "GDP_Growth": 4.658157,
-      "renewables_share_elec": 44.810425,
+      "GDP_Growth": 4.657955,
+      "renewables_share_elec": 42.092068,
       "Urbanization_Rate": 90.161079,
-      "Industry_Value_Added_Pct_GDP": 28.842295,
+      "Industry_Value_Added_Pct_GDP": 28.983517,
       "Population_Density": 112.37434,
-      "fossil_fuel_consumption": 1803.446546,
+      "fossil_fuel_consumption": 1751.427183,
       "nuclear_consumption": 0.0,
-      "coal_co2": 193.676133,
-      "gas_co2": 105.122574,
-      "co2_per_capita": 5.692453,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2154.098471,
+      "energy_per_capita": 24306.420303,
+      "energy_per_gdp": 0.8227,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 57.821072,
+      "coal_co2": 196.452494,
+      "gas_co2": 125.784921,
+      "co2_per_capita": 5.774329,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.011735
     },
     {
@@ -239,17 +332,22 @@
       "year": 2027,
       "Population": 88219337.843107,
       "GDP_Per_Capita": 13723.864989,
-      "GDP_Growth": 4.658157,
-      "renewables_share_elec": 43.80341,
+      "GDP_Growth": 4.657955,
+      "renewables_share_elec": 41.789909,
       "Urbanization_Rate": 90.952167,
-      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Industry_Value_Added_Pct_GDP": 28.545132,
       "Population_Density": 113.341896,
-      "fossil_fuel_consumption": 1846.267888,
+      "fossil_fuel_consumption": 1790.304827,
       "nuclear_consumption": 0.0,
-      "coal_co2": 197.878033,
-      "gas_co2": 104.747986,
-      "co2_per_capita": 5.775022,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2206.78677,
+      "energy_per_capita": 24747.919527,
+      "energy_per_gdp": 0.812416,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 58.891438,
+      "coal_co2": 200.728865,
+      "gas_co2": 129.496173,
+      "co2_per_capita": 5.861256,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.011988
     },
     {
@@ -258,17 +356,22 @@
       "year": 2028,
       "Population": 88969487.42899,
       "GDP_Per_Capita": 14174.320073,
-      "GDP_Growth": 4.658157,
-      "renewables_share_elec": 39.916965,
+      "GDP_Growth": 4.657955,
+      "renewables_share_elec": 42.219852,
       "Urbanization_Rate": 91.968961,
-      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Industry_Value_Added_Pct_GDP": 28.545132,
       "Population_Density": 114.472847,
-      "fossil_fuel_consumption": 1888.84621,
+      "fossil_fuel_consumption": 1828.912274,
       "nuclear_consumption": 0.0,
-      "coal_co2": 202.112111,
-      "gas_co2": 103.151726,
-      "co2_per_capita": 5.857348,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2259.481158,
+      "energy_per_capita": 25185.678829,
+      "energy_per_gdp": 0.802269,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 58.329079,
+      "coal_co2": 204.927667,
+      "gas_co2": 133.117467,
+      "co2_per_capita": 5.948986,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.012242
     },
     {
@@ -277,17 +380,22 @@
       "year": 2029,
       "Population": 89991425.165577,
       "GDP_Per_Capita": 14593.895159,
-      "GDP_Growth": 4.658157,
-      "renewables_share_elec": 41.788414,
+      "GDP_Growth": 4.657955,
+      "renewables_share_elec": 41.05925,
       "Urbanization_Rate": 93.188626,
-      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Industry_Value_Added_Pct_GDP": 28.545132,
       "Population_Density": 115.74085,
-      "fossil_fuel_consumption": 1930.874695,
+      "fossil_fuel_consumption": 1867.364853,
       "nuclear_consumption": 0.0,
-      "coal_co2": 206.331191,
-      "gas_co2": 105.122574,
-      "co2_per_capita": 5.939631,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2312.190993,
+      "energy_per_capita": 25621.049562,
+      "energy_per_gdp": 0.79218,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 58.107521,
+      "coal_co2": 209.090658,
+      "gas_co2": 136.685613,
+      "co2_per_capita": 6.036987,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.012495
     },
     {
@@ -296,17 +404,22 @@
       "year": 2030,
       "Population": 91280681.425901,
       "GDP_Per_Capita": 14990.606023,
-      "GDP_Growth": 4.658157,
-      "renewables_share_elec": 45.33794,
+      "GDP_Growth": 4.657955,
+      "renewables_share_elec": 42.092068,
       "Urbanization_Rate": 94.575324,
-      "Industry_Value_Added_Pct_GDP": 28.468174,
+      "Industry_Value_Added_Pct_GDP": 28.545132,
       "Population_Density": 117.102994,
-      "fossil_fuel_consumption": 1972.696068,
+      "fossil_fuel_consumption": 1905.728669,
       "nuclear_consumption": 0.0,
-      "coal_co2": 210.535981,
-      "gas_co2": 104.747986,
-      "co2_per_capita": 6.021912,
-      "Electricity_Loss_Pct": NaN,
+      "primary_energy_consumption": 2364.911262,
+      "energy_per_capita": 26054.891621,
+      "energy_per_gdp": 0.78209,
+      "nuclear_share_elec": 0.0,
+      "fossil_share_elec": 57.821072,
+      "coal_co2": 213.237291,
+      "gas_co2": 140.222358,
+      "co2_per_capita": 6.12503,
+      "Electricity_Loss_Pct": null,
       "temperature_change_from_ghg": 0.012748
     }
   ],
@@ -775,59 +888,59 @@
   "asama3_metrikler": [
     {
       "model": "RF",
-      "rmse": 27.9581,
-      "mae": 22.8381,
-      "mape": 5.4306,
-      "r2": 0.4915,
-      "optuna_cv_rmse": 32.9105
+      "r2": 0.4874,
+      "mae": 23.1541,
+      "rmse": 28.071,
+      "mape": 5.5169,
+      "optuna_cv_rmse": 34.4365
     },
     {
       "model": "XGBoost",
-      "rmse": 20.6799,
-      "mae": 17.3009,
-      "mape": 4.124,
-      "r2": 0.7218,
-      "optuna_cv_rmse": 27.3083
+      "r2": 0.6422,
+      "mae": 18.8318,
+      "rmse": 23.453,
+      "mape": 4.4529,
+      "optuna_cv_rmse": 28.1
     },
     {
       "model": "LSTM",
-      "rmse": 18.304,
-      "mae": 14.878,
-      "mape": 3.5111,
-      "r2": 0.7821,
-      "optuna_cv_rmse": 8.1715
+      "r2": 0.7908,
+      "mae": 13.618,
+      "rmse": 17.9343,
+      "mape": 3.2597,
+      "optuna_cv_rmse": 7.5375
     }
   ],
   "asama3_forecast": [
     {
       "year": 2026,
-      "RF_MtCO2": 464.19,
-      "XGBoost_MtCO2": 482.61,
-      "LSTM_MtCO2": 487.87
+      "RF_MtCO2": 464.73,
+      "XGBoost_MtCO2": 483.5,
+      "LSTM_MtCO2": 501.02
     },
     {
       "year": 2027,
-      "RF_MtCO2": 464.19,
-      "XGBoost_MtCO2": 482.61,
-      "LSTM_MtCO2": 494.57
+      "RF_MtCO2": 462.48,
+      "XGBoost_MtCO2": 483.35,
+      "LSTM_MtCO2": 510.64
     },
     {
       "year": 2028,
-      "RF_MtCO2": 463.9,
-      "XGBoost_MtCO2": 483.4,
-      "LSTM_MtCO2": 500.98
+      "RF_MtCO2": 462.47,
+      "XGBoost_MtCO2": 483.5,
+      "LSTM_MtCO2": 519.7
     },
     {
       "year": 2029,
-      "RF_MtCO2": 463.9,
-      "XGBoost_MtCO2": 483.4,
-      "LSTM_MtCO2": 510.69
+      "RF_MtCO2": 462.48,
+      "XGBoost_MtCO2": 483.35,
+      "LSTM_MtCO2": 529.28
     },
     {
       "year": 2030,
-      "RF_MtCO2": 464.19,
-      "XGBoost_MtCO2": 482.61,
-      "LSTM_MtCO2": 521.45
+      "RF_MtCO2": 463.85,
+      "XGBoost_MtCO2": 483.5,
+      "LSTM_MtCO2": 539.36
     }
   ],
   "asama3_cv_detay": [
@@ -835,253 +948,253 @@
       "model": "RF",
       "year": 2012,
       "gercek_MtCO2": 358.64,
-      "tahmin_MtCO2": 332.26,
-      "hata_pct": 7.36
+      "tahmin_MtCO2": 330.64,
+      "hata_pct": 7.81
     },
     {
       "model": "RF",
       "year": 2013,
       "gercek_MtCO2": 350.63,
-      "tahmin_MtCO2": 349.84,
-      "hata_pct": 0.23
+      "tahmin_MtCO2": 349.09,
+      "hata_pct": 0.44
     },
     {
       "model": "RF",
       "year": 2014,
       "gercek_MtCO2": 367.27,
-      "tahmin_MtCO2": 350.98,
-      "hata_pct": 4.44
+      "tahmin_MtCO2": 347.82,
+      "hata_pct": 5.3
     },
     {
       "model": "RF",
       "year": 2015,
       "gercek_MtCO2": 387.7,
-      "tahmin_MtCO2": 355.83,
-      "hata_pct": 8.22
+      "tahmin_MtCO2": 357.05,
+      "hata_pct": 7.91
     },
     {
       "model": "RF",
       "year": 2016,
       "gercek_MtCO2": 405.55,
-      "tahmin_MtCO2": 371.77,
-      "hata_pct": 8.33
+      "tahmin_MtCO2": 374.09,
+      "hata_pct": 7.76
     },
     {
       "model": "RF",
       "year": 2017,
       "gercek_MtCO2": 430.62,
-      "tahmin_MtCO2": 387.46,
-      "hata_pct": 10.02
+      "tahmin_MtCO2": 387.3,
+      "hata_pct": 10.06
     },
     {
       "model": "RF",
       "year": 2018,
       "gercek_MtCO2": 423.82,
-      "tahmin_MtCO2": 413.33,
-      "hata_pct": 2.47
+      "tahmin_MtCO2": 411.05,
+      "hata_pct": 3.01
     },
     {
       "model": "RF",
       "year": 2019,
       "gercek_MtCO2": 406.57,
-      "tahmin_MtCO2": 417.81,
-      "hata_pct": 2.76
+      "tahmin_MtCO2": 415.02,
+      "hata_pct": 2.08
     },
     {
       "model": "RF",
       "year": 2020,
       "gercek_MtCO2": 416.33,
-      "tahmin_MtCO2": 411.5,
-      "hata_pct": 1.16
+      "tahmin_MtCO2": 409.58,
+      "hata_pct": 1.62
     },
     {
       "model": "RF",
       "year": 2021,
       "gercek_MtCO2": 457.38,
-      "tahmin_MtCO2": 418.77,
-      "hata_pct": 8.44
+      "tahmin_MtCO2": 417.82,
+      "hata_pct": 8.65
     },
     {
       "model": "RF",
       "year": 2022,
       "gercek_MtCO2": 443.6,
-      "tahmin_MtCO2": 438.16,
-      "hata_pct": 1.23
+      "tahmin_MtCO2": 438.88,
+      "hata_pct": 1.06
     },
     {
       "model": "RF",
       "year": 2023,
       "gercek_MtCO2": 486.94,
-      "tahmin_MtCO2": 435.78,
-      "hata_pct": 10.51
+      "tahmin_MtCO2": 435.79,
+      "hata_pct": 10.5
     },
     {
       "model": "XGBoost",
       "year": 2012,
       "gercek_MtCO2": 358.64,
-      "tahmin_MtCO2": 343.0400085449219,
-      "hata_pct": 4.35
+      "tahmin_MtCO2": 342.30999755859375,
+      "hata_pct": 4.55
     },
     {
       "model": "XGBoost",
       "year": 2013,
       "gercek_MtCO2": 350.63,
-      "tahmin_MtCO2": 357.8699951171875,
-      "hata_pct": 2.06
+      "tahmin_MtCO2": 355.7099914550781,
+      "hata_pct": 1.45
     },
     {
       "model": "XGBoost",
       "year": 2014,
       "gercek_MtCO2": 367.27,
-      "tahmin_MtCO2": 357.8500061035156,
-      "hata_pct": 2.57
+      "tahmin_MtCO2": 355.4700012207031,
+      "hata_pct": 3.21
     },
     {
       "model": "XGBoost",
       "year": 2015,
       "gercek_MtCO2": 387.7,
-      "tahmin_MtCO2": 360.1300048828125,
-      "hata_pct": 7.11
+      "tahmin_MtCO2": 359.6099853515625,
+      "hata_pct": 7.25
     },
     {
       "model": "XGBoost",
       "year": 2016,
       "gercek_MtCO2": 405.55,
-      "tahmin_MtCO2": 387.010009765625,
-      "hata_pct": 4.57
+      "tahmin_MtCO2": 386.2699890136719,
+      "hata_pct": 4.76
     },
     {
       "model": "XGBoost",
       "year": 2017,
       "gercek_MtCO2": 430.62,
-      "tahmin_MtCO2": 404.7999877929687,
-      "hata_pct": 6.0
-    },
-    {
-      "model": "XGBoost",
-      "year": 2018,
-      "gercek_MtCO2": 423.82,
-      "tahmin_MtCO2": 429.25,
-      "hata_pct": 1.28
-    },
-    {
-      "model": "XGBoost",
-      "year": 2019,
-      "gercek_MtCO2": 406.57,
-      "tahmin_MtCO2": 424.0700073242187,
-      "hata_pct": 4.3
-    },
-    {
-      "model": "XGBoost",
-      "year": 2020,
-      "gercek_MtCO2": 416.33,
-      "tahmin_MtCO2": 406.8699951171875,
-      "hata_pct": 2.27
-    },
-    {
-      "model": "XGBoost",
-      "year": 2021,
-      "gercek_MtCO2": 457.38,
-      "tahmin_MtCO2": 430.7099914550781,
-      "hata_pct": 5.83
-    },
-    {
-      "model": "XGBoost",
-      "year": 2022,
-      "gercek_MtCO2": 443.6,
-      "tahmin_MtCO2": 445.0799865722656,
-      "hata_pct": 0.33
-    },
-    {
-      "model": "XGBoost",
-      "year": 2023,
-      "gercek_MtCO2": 486.94,
-      "tahmin_MtCO2": 444.0799865722656,
-      "hata_pct": 8.8
-    },
-    {
-      "model": "LSTM",
-      "year": 2012,
-      "gercek_MtCO2": 358.64,
-      "tahmin_MtCO2": 363.12,
-      "hata_pct": 1.25
-    },
-    {
-      "model": "LSTM",
-      "year": 2013,
-      "gercek_MtCO2": 350.63,
-      "tahmin_MtCO2": 357.79,
-      "hata_pct": 2.04
-    },
-    {
-      "model": "LSTM",
-      "year": 2014,
-      "gercek_MtCO2": 367.27,
-      "tahmin_MtCO2": 378.59,
-      "hata_pct": 3.08
-    },
-    {
-      "model": "LSTM",
-      "year": 2015,
-      "gercek_MtCO2": 387.7,
-      "tahmin_MtCO2": 376.92,
-      "hata_pct": 2.78
-    },
-    {
-      "model": "LSTM",
-      "year": 2016,
-      "gercek_MtCO2": 405.55,
-      "tahmin_MtCO2": 387.42,
-      "hata_pct": 4.47
-    },
-    {
-      "model": "LSTM",
-      "year": 2017,
-      "gercek_MtCO2": 430.62,
-      "tahmin_MtCO2": 422.25,
-      "hata_pct": 1.94
-    },
-    {
-      "model": "LSTM",
-      "year": 2018,
-      "gercek_MtCO2": 423.82,
-      "tahmin_MtCO2": 427.65,
-      "hata_pct": 0.9
-    },
-    {
-      "model": "LSTM",
-      "year": 2019,
-      "gercek_MtCO2": 406.57,
-      "tahmin_MtCO2": 431.57,
+      "tahmin_MtCO2": 404.1300048828125,
       "hata_pct": 6.15
     },
     {
+      "model": "XGBoost",
+      "year": 2018,
+      "gercek_MtCO2": 423.82,
+      "tahmin_MtCO2": 428.7999877929687,
+      "hata_pct": 1.17
+    },
+    {
+      "model": "XGBoost",
+      "year": 2019,
+      "gercek_MtCO2": 406.57,
+      "tahmin_MtCO2": 424.3900146484375,
+      "hata_pct": 4.38
+    },
+    {
+      "model": "XGBoost",
+      "year": 2020,
+      "gercek_MtCO2": 416.33,
+      "tahmin_MtCO2": 406.44000244140625,
+      "hata_pct": 2.38
+    },
+    {
+      "model": "XGBoost",
+      "year": 2021,
+      "gercek_MtCO2": 457.38,
+      "tahmin_MtCO2": 428.739990234375,
+      "hata_pct": 6.26
+    },
+    {
+      "model": "XGBoost",
+      "year": 2022,
+      "gercek_MtCO2": 443.6,
+      "tahmin_MtCO2": 446.0499877929687,
+      "hata_pct": 0.55
+    },
+    {
+      "model": "XGBoost",
+      "year": 2023,
+      "gercek_MtCO2": 486.94,
+      "tahmin_MtCO2": 431.80999755859375,
+      "hata_pct": 11.32
+    },
+    {
+      "model": "LSTM",
+      "year": 2012,
+      "gercek_MtCO2": 358.64,
+      "tahmin_MtCO2": 359.62,
+      "hata_pct": 0.27
+    },
+    {
+      "model": "LSTM",
+      "year": 2013,
+      "gercek_MtCO2": 350.63,
+      "tahmin_MtCO2": 364.36,
+      "hata_pct": 3.91
+    },
+    {
+      "model": "LSTM",
+      "year": 2014,
+      "gercek_MtCO2": 367.27,
+      "tahmin_MtCO2": 377.23,
+      "hata_pct": 2.71
+    },
+    {
+      "model": "LSTM",
+      "year": 2015,
+      "gercek_MtCO2": 387.7,
+      "tahmin_MtCO2": 379.85,
+      "hata_pct": 2.03
+    },
+    {
+      "model": "LSTM",
+      "year": 2016,
+      "gercek_MtCO2": 405.55,
+      "tahmin_MtCO2": 401.85,
+      "hata_pct": 0.91
+    },
+    {
+      "model": "LSTM",
+      "year": 2017,
+      "gercek_MtCO2": 430.62,
+      "tahmin_MtCO2": 399.19,
+      "hata_pct": 7.3
+    },
+    {
+      "model": "LSTM",
+      "year": 2018,
+      "gercek_MtCO2": 423.82,
+      "tahmin_MtCO2": 414.52,
+      "hata_pct": 2.19
+    },
+    {
+      "model": "LSTM",
+      "year": 2019,
+      "gercek_MtCO2": 406.57,
+      "tahmin_MtCO2": 443.77,
+      "hata_pct": 9.15
+    },
+    {
       "model": "LSTM",
       "year": 2020,
       "gercek_MtCO2": 416.33,
-      "tahmin_MtCO2": 437.4,
-      "hata_pct": 5.06
+      "tahmin_MtCO2": 418.72,
+      "hata_pct": 0.57
     },
     {
       "model": "LSTM",
       "year": 2021,
       "gercek_MtCO2": 457.38,
-      "tahmin_MtCO2": 431.93,
-      "hata_pct": 5.56
+      "tahmin_MtCO2": 429.61,
+      "hata_pct": 6.07
     },
     {
       "model": "LSTM",
       "year": 2022,
       "gercek_MtCO2": 443.6,
-      "tahmin_MtCO2": 440.19,
-      "hata_pct": 0.77
+      "tahmin_MtCO2": 440.3,
+      "hata_pct": 0.74
     },
     {
       "model": "LSTM",
       "year": 2023,
       "gercek_MtCO2": 486.94,
-      "tahmin_MtCO2": 447.41,
-      "hata_pct": 8.12
+      "tahmin_MtCO2": 471.14,
+      "hata_pct": 3.25
     }
   ],
   "turkey_gecmis": [
